@@ -8,38 +8,6 @@ on:
 jobs:
   download:
     runs-on: ubuntu-latest
-
-    strategy:
-      max-parallel: 3
-      matrix:
-        url:
-          # - https://easylist-downloads.adblockplus.org/easylist.txt
-          # - https://easylist-downloads.adblockplus.org/easyprivacy.txt
-          # - https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-          # - https://easylist-downloads.adblockplus.org/easylist_noadult.txt
-          # - https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt
-          - https://abpvn.com/filter/abpvn-IPl6HE.txt
-          - https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-          - https://easylist-downloads.adblockplus.org/easylistchina.txt
-          - https://easylist-downloads.adblockplus.org/easylistdutch.txt
-          - https://easylist-downloads.adblockplus.org/easylistitaly.txt
-          - https://easylist-downloads.adblockplus.org/easylistpolish.txt
-          - https://easylist-downloads.adblockplus.org/easylistportuguese.txt
-          - https://easylist-downloads.adblockplus.org/easylistspanish.txt
-          - https://easylist-downloads.adblockplus.org/indianlist.txt
-          - https://easylist-downloads.adblockplus.org/koreanlist.txt
-          - https://easylist-downloads.adblockplus.org/liste_ar.txt
-          - https://easylist-downloads.adblockplus.org/liste_fr.txt
-          - https://easylist-downloads.adblockplus.org/ruadlist.txt
-          - https://easylist.to/easylist/easylist.txt
-          - https://easylist.to/easylist/easyprivacy.txt
-          - https://easylist.to/easylistgermany/easylistgermany.txt
-          - https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt
-          - https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
-          - https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt
-          - https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt
-          - https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt
-          - https://zoso.ro/pages/rolist.txt
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -47,21 +15,45 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get install -y curl jq
 
-      - name: Check GITHUB_TOKEN permissions
-        run: |
-          echo "Checking token permissions..."
-          curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/user
-          echo
-          curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${GITHUB_REPOSITORY} | jq '.permissions'
-
       - name: Create download folder
         run: mkdir -p easylists
 
       - name: Download filter list
         run: |
-          fn=$(basename "${{ matrix.url }}")
-          curl -sSL "${{ matrix.url }}" -o "easylists/$fn" || echo "Skipping $fn"
-
+          urls=(
+            https://easylist-downloads.adblockplus.org/easylist.txt
+            https://easylist-downloads.adblockplus.org/easyprivacy.txt
+            https://easylist-downloads.adblockplus.org/easylist_noadult.txt
+            https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt
+            https://abpvn.com/filter/abpvn-IPl6HE.txt
+            https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+            https://easylist-downloads.adblockplus.org/easylistchina.txt
+            https://easylist-downloads.adblockplus.org/easylistdutch.txt
+            https://easylist-downloads.adblockplus.org/easylistitaly.txt
+            https://easylist-downloads.adblockplus.org/easylistpolish.txt
+            https://easylist-downloads.adblockplus.org/easylistportuguese.txt
+            https://easylist-downloads.adblockplus.org/easylistspanish.txt
+            https://easylist-downloads.adblockplus.org/indianlist.txt
+            https://easylist-downloads.adblockplus.org/koreanlist.txt
+            https://easylist-downloads.adblockplus.org/liste_ar.txt
+            https://easylist-downloads.adblockplus.org/liste_fr.txt
+            https://easylist-downloads.adblockplus.org/ruadlist.txt
+            https://easylist.to/easylist/easylist.txt
+            https://easylist.to/easylist/easyprivacy.txt
+            https://easylist.to/easylistgermany/easylistgermany.txt
+            https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt
+            https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
+            https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt
+            https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt
+            https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt
+            https://zoso.ro/pages/rolist.txt          
+          )
+          for url in "${urls[@]}"; do
+            filename=$(basename "$url")
+            echo "Downloading $filename ..."
+            curl -f -sSL "$url" -o "easylists/$filename" || echo "Skipping $filename"
+          done
+  
       - name: Commit & push
         run: |
           git config user.name "github-actions"
@@ -75,4 +67,4 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: easylists
-          path: easylists-copy/
+          path: easylists/
