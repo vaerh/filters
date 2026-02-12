@@ -1,0 +1,80 @@
+name: Update filters
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Every day at midnight
+
+jobs:
+  generate-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      urls: ${{ steps.collect.outputs.urls }}
+
+    steps:
+      - name: Download subscriptions.xml
+        run: |
+          curl -sSL https://easylist-downloads.adblockplus.org/subscriptions.xml -o subs.xml
+
+      - name: Extract URLs
+        id: collect
+        run: |
+          urls=$(grep -oP 'url="\K[^"]+' subs.xml \
+            | grep easylist-downloads.adblockplus.org \
+            | sort -u \
+            | jq -R -s -c 'split("\n")[:-1]')
+          echo "urls=$urls" >> $GITHUB_OUTPUT
+
+  download:
+    needs: generate-matrix
+    runs-on: ubuntu-latest
+
+
+    strategy:
+      max-parallel: 3
+      matrix:
+        url: ${{ fromJson(needs.generate-matrix.outputs.urls) }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: sudo apt-get install -y curl jq
+
+      - name: Create download folder
+        run: mkdir -p easylists
+
+      - name: Download filter list
+        run: |
+          fn=$(basename "${{ matrix.url }}")
+          curl -sSL "${{ matrix.url }}" -o "easylists/$fn"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: easylists-files
+          path: easylists/
+
+  commit-all:
+    needs: download-matrix
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: easylists-files
+          path: easylists
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add easylists/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update EasyList filter lists"
+          git push
