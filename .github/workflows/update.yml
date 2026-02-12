@@ -57,7 +57,7 @@ jobs:
           path: easylists/
 
   commit-all:
-    needs: download-matrix
+    needs: download
     runs-on: ubuntu-latest
 
     steps:
