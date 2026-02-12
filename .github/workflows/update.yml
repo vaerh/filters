@@ -57,7 +57,7 @@ jobs:
           curl -sSL "${{ matrix.url }}" -o "easylists/$fn"
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: easylists-files
           path: easylists/
@@ -71,7 +71,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Download artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: easylists-files
           path: easylists
