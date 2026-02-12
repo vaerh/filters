@@ -55,23 +55,12 @@ jobs:
           fn=$(basename "${{ matrix.url }}")
           curl -sSL "${{ matrix.url }}" -o "easylists/$fn" || echo "Skipping $fn"
 
-  commit-all:
-    needs: download
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-
-      - name: Copy downloaded lists
-        run: mkdir -p easylists-copy && cp -r easylists/* easylists-copy/
-
       - name: Commit & push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add easylists-copy/
+          git add easylists/
           git diff --quiet && git diff --staged --quiet || git commit -m "Update EasyList filter lists"
           git push
 
