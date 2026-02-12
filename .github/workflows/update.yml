@@ -45,7 +45,14 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Install dependencies
-        run: sudo apt-get install -y curl
+        run: sudo apt-get install -y curl jq
+
+      - name: Check GITHUB_TOKEN permissions
+        run: |
+          echo "Checking token permissions..."
+          curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/user
+          echo
+          curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${GITHUB_REPOSITORY} | jq '.permissions'
 
       - name: Create download folder
         run: mkdir -p easylists
