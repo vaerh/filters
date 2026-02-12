@@ -53,13 +53,7 @@ jobs:
       - name: Download filter list
         run: |
           fn=$(basename "${{ matrix.url }}")
-          curl -sSL "${{ matrix.url }}" -o "easylists/$fn"
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v6
-        with:
-          name: easylists-files
-          path: easylists/
+          curl -sSL "${{ matrix.url }}" -o "easylists/$fn" || echo "Skipping $fn"
 
   commit-all:
     needs: download
@@ -69,11 +63,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: easylists-files
-          path: easylists
+      - name: Copy downloaded lists
+        run: mkdir -p easylists-copy && cp -r easylists/* easylists-copy/
 
       - name: Commit & push
         run: |
@@ -83,3 +74,9 @@ jobs:
           git add easylists/
           git diff --quiet && git diff --staged --quiet || git commit -m "Update EasyList filter lists"
           git push
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: easylists
+          path: easylists-copy/
