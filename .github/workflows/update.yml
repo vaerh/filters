@@ -9,26 +9,32 @@ jobs:
   generate-matrix:
     runs-on: ubuntu-latest
     outputs:
-      urls: ${{ steps.collect.outputs.urls }}
+      urls: ${{ steps.build.outputs.urls }}
 
     steps:
-      - name: Download subscriptions.xml
+      - name: Get EasyList repositories
+        id: build
         run: |
-          curl -sSL https://easylist-downloads.adblockplus.org/subscriptions.xml -o subs.xml
+          repos=$(curl -s https://api.github.com/orgs/easylist/repos?per_page=100 \
+            | jq -r '.[].name')
 
-      - name: Extract URLs
-        id: collect
-        run: |
-          urls=$(grep -oP 'url="\K[^"]+' subs.xml \
-            | grep easylist-downloads.adblockplus.org \
-            | sort -u \
-            | jq -R -s -c 'split("\n")[:-1]')
-          echo "urls=$urls" >> $GITHUB_OUTPUT
+          urls=()
+
+          for repo in $repos; do
+            files=$(curl -s https://api.github.com/repos/easylist/$repo/contents/ \
+              | jq -r '.[] | select(.name | endswith(".txt")) | .name')
+
+            for f in $files; do
+              urls+=("https://easylist-downloads.adblockplus.org/$f")
+            done
+          done
+
+          json=$(printf '%s\n' "${urls[@]}" | sort -u | jq -R -s -c 'split("\n")[:-1]')
+          echo "urls=$json" >> $GITHUB_OUTPUT
 
   download:
     needs: generate-matrix
     runs-on: ubuntu-latest
-
 
     strategy:
       max-parallel: 3
