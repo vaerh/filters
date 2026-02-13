@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eCxswAP3aL57So1rybKydg
-! Version: 202602120722
+! Checksum: 37s8/MqdZ0fInAeF487+NQ
+! Version: 202602130241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Feb 2026 07:22 UTC
+! Last modified: 13 Feb 2026 02:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10636,6 +10636,7 @@ _tizers.
 ||vmkxcsss.ru^$third-party
 ||vn-chk123.com^$third-party
 ||vn-chk777.com^$third-party
+||vn12345.mvapspdmpg.com^$third-party
 ||vne56qxpovf.info^$third-party
 ||vne56wxlo.shop^$third-party
 ||vne56wxlo.tech^$third-party
@@ -12905,6 +12906,7 @@ newsko.ru###xtest-videoad
 soft.sibnet.ru###ya-block
 80-e.ru###ya-bottom
 avtovzglyad.ru,mk.ru###ya_feed_cont
+yapolitic.ru###ya_political:empty
 snatchnews.com###yandexBanner
 ixbt.com###yandex_recommend
 planet-today.ru###yandex_save
@@ -13722,6 +13724,7 @@ vitatv.com.ua##.block-type-advertising
 velvet.by##.block-velcompany
 bogmedia.org,filmozavr.com,filmozavr.net##.block-video > .table
 processer.media##.block-wrap-da
+habr.com#?#.block-wrapper:-abp-has(> [data-test-id^="Advertising"] > div:empty)
 zh24.com##.block.elite
 sotniktv.org##.block12 > a[target="_blank"]
 sport-tv.by#?#.block:-abp-has(.adsbygoogle)
@@ -15778,6 +15781,7 @@ calorizator.ru#?#.region[id^="content-"] > .block:-abp-has(script:-abp-contains(
 fonzo.ru,hemingway-lib.ru,kinogo.biz,oka.fm,sms24.info,sms24.me,ternopoliany.te.ua##.rek
 buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##.rek,.rek ~ .ramka
 med-heal.ru##.rek-bar
+yapolitic.ru##.rek-bot
 lenov.ru##.rek-but
 lenov.ru,yapolitic.ru##.rek-top
 sport.kg##.rek-widgets
@@ -17651,8 +17655,8 @@ gurutestov.ru##a[href*="ecvator."]
 komapz.net##a[href*="epidems.net"]
 kubyshka.org,radiochief.ru,riperam.org,znamyuzl.ru##a[href*="epngo.bz"]
 cybersport.ru##a[href*="erid:"][target="_blank"]
-business-gazeta.ru##a[href*="erid="]
-66.ru,agronovosti.ru,kinorium.com,sport-express.net,sport-express.ru,www.ixbt.com##a[href*="erid="][target="_blank"]
+business-gazeta.ru,www.ixbt.com##a[href*="erid="]
+66.ru,agronovosti.ru,kinorium.com,sport-express.net,sport-express.ru##a[href*="erid="][target="_blank"]
 7ba.org,7ba.ru##a[href*="erotel.org"]
 forum.amit.ru##a[href*="evroremont.amit.ru"]
 ilenta.com,lelang.su,rutr.life,rutracker.lib,rutracker.net,rutracker.org,shopping.nv.ua##a[href*="fas.st/"]
@@ -23611,7 +23615,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?Q98ui=$xmlhttprequest
+||pikabu.ru/ajax/*?Q88ui=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24158,6 +24162,7 @@ vkplay.ru##div[class*="ArtBannerSkeleton"]
 ||mail.ru^$domain=dzen.ru
 ||mamba.ru/images/*/promo/
 ||media-advcycle.imgsmail.ru^$third-party
+||media-sellgate.mail.ru/embed/widget/index.js
 ||media-stat.mail.ru^
 ||mradx.net/img/$subdocument
 ||pets.mail.ru/my/pets/add

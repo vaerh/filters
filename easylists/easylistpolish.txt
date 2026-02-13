@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d2b+3C2UxVGIezK+2lng5Q
-! Version: 202602120722
+! Checksum: HaY1l/NyHDOe15F8ht237w
+! Version: 202602130241
 ! Title: EasyList Polish
-! Last modified: 12 Feb 2026 07:22 UTC
+! Last modified: 13 Feb 2026 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2998,6 +2998,7 @@ bartekwpodrozy.pl##iframe[src^="https://widget.getyourguide.com/default/"]
 xlomza.pl##img.uk-margin-top
 wladek.pl##img[alt$="eklama"]
 jakzrobicwexcelu.pl##img[alt$="reklama"]
+motohigh.pl##img[alt*="Ad"]
 wirtualnekosmetyki.pl##img[alt*="baner szeroki"]
 infoskierniewice.pl##img[alt*="baner"]
 gazetawalbrzych.pl,gloskrakowa.pl##img[alt*="sponsorowane"]
