@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 37s8/MqdZ0fInAeF487+NQ
-! Version: 202602130241
+! Checksum: xwUqkKyYcG2fkGcmrOEKZQ
+! Version: 202602140221
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Feb 2026 02:41 UTC
+! Last modified: 14 Feb 2026 02:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15782,8 +15782,7 @@ fonzo.ru,hemingway-lib.ru,kinogo.biz,oka.fm,sms24.info,sms24.me,ternopoliany.te.
 buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##.rek,.rek ~ .ramka
 med-heal.ru##.rek-bar
 yapolitic.ru##.rek-bot
-lenov.ru##.rek-but
-lenov.ru,yapolitic.ru##.rek-top
+yapolitic.ru##.rek-top
 sport.kg##.rek-widgets
 baginya.org##.rek1
 okaygorod.com##.rek_ban a[href]:not([href^="https://okaygorod.com/"])
