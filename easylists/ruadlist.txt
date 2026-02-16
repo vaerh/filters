@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M1Owm1JKXyPYwk54+76ZQg
-! Version: 202602150241
+! Checksum: vBFwvCXZDxV67oOiR2Z0+w
+! Version: 202602160231
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Feb 2026 02:41 UTC
+! Last modified: 16 Feb 2026 02:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2332,7 +2332,7 @@ _tizers.
 ||servebbs.net^$third-party,script,subdocument
 !
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org
-||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~dewalt.store|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hdvbplayer.tk|~herokuapp.com|~liveball.cc|~liveball.gg|~liveball.my|~liveball.sx|~liveball.uno|~liveball.ws|~masterclub.store|~movielab.pro|~osu.ppy.sh|~panomama.ru|~pelcn.net|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~dewalt.store|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hansgrohe.ru|~hdvbplayer.tk|~herokuapp.com|~liveball.cc|~liveball.gg|~liveball.my|~liveball.sx|~liveball.uno|~liveball.ws|~masterclub.store|~movielab.pro|~osu.ppy.sh|~panomama.ru|~pelcn.net|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host
 !
 ! Исключения
 @@||12go.asia/dist/prod/build.*.js|$third-party,script
@@ -16762,7 +16762,7 @@ shopinfo.com.ua##.widget-group-no-name .sidebarAdvertising
 shopinfo.com.ua#?#.widget-group-no-name:-abp-has(.sidebarAdvertising)
 tv.i.ua##.widget-news_premium
 maanimo.com##.widget-offers
-interface31.ru##.widget-pages a[href*="utm_"]
+interface31.ru##.widget-pages a[href][target="_blank"] > img
 interface31.ru#?#.widget-pages:-abp-has(> .widget-header:-abp-contains(Реклама))
 nur.kz##.widget-parimatch-wrapper
 bibliofond.ru##.widget-pomogi
@@ -24935,12 +24935,6 @@ ukr.net##.lazy-load-banner
 @@://yandex.*/search$generichide
 @@://yandex.ru/|$generichide
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
-market.yandex.ru,market.yandex.*##[aria-label="Баннер"]
-market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@marketfront/MadvHeaderPromo"]
-market.yandex.ru,market.yandex.*##[data-auto*="banner"] > a:not([href^="/"]):not([href^="https://market.yandex.ru/"])
-market.yandex.ru,market.yandex.*##[data-auto*="banner"] [role="button"]
-market.yandex.ru,market.yandex.*##[data-madv]
-market.yandex.ru,market.yandex.*##div[id^="remix_"] > div[style^="grid-row:"][style*="grid-column:"]:empty
 ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[aria-label="Informers"] ~ [class]
 ya.ru##[aria-label^="Информ"] ~ [class]
@@ -25062,6 +25056,17 @@ yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-"]:empty
 ! Яндекс.Карты
 yandex.ru,yandex.*##.catalog-grid-view__item._advert
 yandex.ru,yandex.*##.map-controls__additional-button .promo-button
+! Яндекс.Маркет
+market.yandex.ru,market.yandex.*##[aria-label="Баннер"]
+market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@marketfront/MadvHeaderPromo"]
+market.yandex.ru,market.yandex.*##[data-auto*="banner"] > a:not([href^="/"]):not([href^="https://market.yandex.ru/"])
+market.yandex.ru,market.yandex.*##[data-auto*="banner"] [role="button"]
+market.yandex.ru,market.yandex.*##[data-auto="direct-tgo-banner"]
+market.yandex.ru,market.yandex.*##[data-banner-manager-id] [role="button"]
+market.yandex.ru,market.yandex.*##[data-baobab-name="recomMadv"] [role="button"]
+market.yandex.ru,market.yandex.*##[data-madv]
+market.yandex.ru,market.yandex.*##a[href^="https://ad.adriver.ru/"]
+market.yandex.ru,market.yandex.*##div[id^="remix_"] > div[style^="grid-row:"][style*="grid-column:"]:empty
 ! Яндекс.Музыка
 music.yandex.ru,music.yandex.*##section[class^="SideAdvertBanner_root_"]
 ! Яндекс.Недвижимость
