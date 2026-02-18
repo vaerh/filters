@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602170232
+! Version: 202602180228
 ! Title: EasyPrivacy
-! Last modified: 17 Feb 2026 02:32 UTC
+! Last modified: 18 Feb 2026 02:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b85d4057edf799286a56ba8edeb4c51c0912116f
+! Commit: 0dbf1f89ce8508e9c39dfb6a6d962e495669e4ba
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -53039,6 +53039,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ymprove.web.de^
 ||zooplus.de/om/pxl/
 ! TrustPid/Utiq
+! ||service.utiq.com^
 ||a1at.mno.link^
 ||bgtfr-test.mno.link^
 ||bob-a1at.mno.link^
@@ -53051,7 +53052,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||o2de.mno.link^
 ||orangefr-test.mno.link^
 ||orangefr.mno.link^
-||service.utiq.com^
 ||sfr.mno.link^
 ||timit.mno.link^
 ||tmi.jv-telcoid.es^
