@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602180228
+! Version: 202602190223
 ! Title: EasyPrivacy
-! Last modified: 18 Feb 2026 02:28 UTC
+! Last modified: 19 Feb 2026 02:23 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0dbf1f89ce8508e9c39dfb6a6d962e495669e4ba
+! Commit: f54b092aae9eee4ec1ddc0f7791dd589d6d34496
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11373,6 +11373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livelyvideo.tv/lb/logger
 ||liverail.com/?metric=
 ||liverail.com/track/?
+||livesearch-metrics.magento-ds.com^
 ||livestats.kaltura.com^
 ||livestory.io/*/collect
 ||llama.fi/script.js
@@ -13649,6 +13650,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Estonian
 ! Finnish
 ||almamedia.fi^*/scroll-monitor.min.js
+||ddl.alma.iltalehti.fi^
 ||dnt-userreport.com^
 ||er.sanoma-sndp.fi/stats/
 ||er.sanoma-sndp.fi/v2/stats/
@@ -14045,6 +14047,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||biggylabs.com.br/track-api/v2/track/site?
 ||collect.chaordicsystems.com^
 ||events.chaordicsystems.com^
+||eventsourcing.ms.harmo.me^
 ||feature-flag-edge.live.clickbus.net^
 ||gke.econodata.com.br^
 ||hitserver.ibope.com.br^
