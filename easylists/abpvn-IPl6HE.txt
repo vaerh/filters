@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oDK5VgZ1gk+2DYU6F7pScQ
-! Version: 20260219011833986
+! Checksum: CcRgVkTpqxkdjny46nCRmQ
+! Version: 20260219194729710
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
 ! Title: ABPVN List
-! Last modified: 19 Feb 2026 01:18:34 UTC+7
-! Diff-Path: patches/20260219011833986.patch#abpvn
+! Last modified: 19 Feb 2026 19:47:29 UTC+7
+! Diff-Path: patches/20260219194729710.patch#abpvn
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -169,6 +169,7 @@ $popup,domain=truyenfull.vision
 ||mediastation.live^*.gif$image,domain=mn.mediastation.live|home1.mannhan22.pro|mannhan97.xyz
 ||mocfun.net/uploads/banners/
 ||motchill.fm^*.gif$image
+||motchill.us.org^*.gif$image
 ||motchillk.bz^*.gif$image
 ||motchillz.sh^*.gif$~third-party
 ||motphimtv.bz^*.gif$image
@@ -654,6 +655,10 @@ motchill.fm##.cat-footer-wrapper
 motchill.fm##.cat-header-wrapper
 motchill.fm##.disable-ads-icon
 motchill.fm##.popup-overlay
+motchill.us.org###vl-header-adx
+motchill.us.org##.banner-preload
+motchill.us.org##.catfish-bottom
+motchill.us.org##.float-contact
 motchillte.cc##.overlay-1
 motchilltvphim.com,phimmoissz.info,subnhanhcx.info##.sda-catfish
 motchilltvphim.com,phimtho.cc,subnhanhcx.info###popup_banner_beta
@@ -1048,7 +1053,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||blogger.googleusercontent.com^*.gif$image,domain=www.gvnvh18z.com
 ||buomtv.media/palivn/ad/$image,~third-party
 ||cap3.life/api/ads$xmlhttprequest
-||cdn-01.w3img.com^*.gif$image,domain=phimsexvl69.net|vlxx.rip
+||cdn-01.w3img.com^*.gif$image,domain=vi.xnxx.studio|vlxx.rip
 ||cdn.adxcontent.com^
 ||cliphot69.shop$csp=script-src 'self' 'unsafe-inline'
 ||cliphot69.shop^*.gif$image
@@ -1057,7 +1062,6 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||cloufdlare.com/ads/vn1.html$subdocument,domain=vl.phe.to
 ||cruncherpatiencestoreroom.com^$popup,domain=cap3.life|qmh.sex
 ||discordapp.$image,domain=phim18vip.top|thefaplive.com|phimsexsub.website
-||gaisexmup.net^*.gif$image,domain=gaisexmup.net
 ||gamer18.net^*.gif$image
 ||hellobabygirl.live/*/adx*.js$domain=nung18.com|phimxxx.ai
 ||hentaivn.show/banner_image/$image
@@ -1081,7 +1085,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||phimsexhayvn115.com^*.gif$image
 ||qmh.sex/assets/js/simpleblocker.js$script,~third-party
 ||quatvn.my^*.gif$image
-||quoracdn.net^$image,domain=lx9x.net|phim18vip.top|pheclip.love|gaisexmup.net|sexhihi.fit|phevl.sh|fulllivehot.live|haysexvn.lol|chich69.top|viet69hayz.life|sieudam.sh
+||quoracdn.net^$image,domain=lx9x.net|phim18vip.top|pheclip.love|xinhmupvn.net|sexhihi.fit|phevl.sh|fulllivehot.live|haysexvn.lol|chich69.top|viet69hayz.life|sieudam.sh
 ||rphang.online^*.gif
 ||sayhentai.world/assets/js/ads.js
 ||sayhentai.world/storage/images/banner/$image
@@ -1103,6 +1107,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||xamer.xyz/styles/file/$image
 ||xfast.sbs/media/$image,domain=fullcliphot.org|fulllivehot.live
 ||xfast.sbs^*.gif$image,domain=clipphot.biz
+||xinhmupvn.net^*.gif$image,domain=xinhmupvn.net
 ||xnhau.blog^$media,domain=xnhau.hot
 !---------- ABPVN Adult Element Hide ---------------
 ##[href^="https://www.i9017.com/"]
@@ -1133,8 +1138,6 @@ fullcliphot.org##div#recent-content:nth-of-type(1)
 fullcliphot.org,fulllivehot.live,clipphot.biz##.cashfish
 fullcliphot.org,fulllivehot.live,clipphot.biz##.mini-player
 gaingon3d.com###iklan-atas-wrapper
-gaisexmup.net##.catfix
-gaisexmup.net,sexhihi.fit,laalmirchitakeaway.co.uk##.catfish-top
 gamer18.net##.fixed-banner-bottom
 gamer18.net##div[id^="divFLR"]
 genzsex.blog##.adx-ad-item
@@ -1147,7 +1150,7 @@ javtopxx2.com##.logo-player
 javtopxx2.com##.sticky_bottom
 laalmirchitakeaway.co.uk##.banner-preload
 luminatra.co.uk###catfish
-lx9x.net,gaisexmup.net,sexhihi.fit##.xx-ads
+lx9x.net,xinhmupvn.net,sexhihi.fit##.xx-ads
 magarethowell.co.uk###vl-header-adx
 magarethowell.co.uk##.xx-ads
 ngaytho.me##.body_wrapper1
@@ -1164,7 +1167,6 @@ phim18vip.top,pheclip.love###pc-preload-modal
 phim18vip.top,pheclip.love##.quang-cao
 phim18vip.top,phevl.sh###popup
 phimsex368.pro,phimsex12x.pro##.quangcaomobile
-phimsexvl69.net,trangsexdam.net,vlxx.rip###f186fb23a33995d91ce3c2212189178c8
 phimxxx.ai###adsbottom
 play.anh.moe##.btm_bar
 quatvn.my##.adace-slideup-slot-wrap
@@ -1214,6 +1216,7 @@ tut4ktream.online###idAdLink
 vailonxx.co##.vailo-sticky
 vailonxx.co##.vailo-under-navbar
 vailonxx.co##.vailo-under-navbar-mobile
+vi.xnxx.studio,trangsexdam.net,vlxx.rip###f186fb23a33995d91ce3c2212189178c8
 viet69.bi##.footer-fixed-br-container
 viet69hayz.life###castfish
 viet69vn.at##.footer-fixed-br-container
@@ -1226,6 +1229,8 @@ vlxxhot.net,vailonxx.co###ab_ctl
 xamvn.bond##.js-notices
 xemphimjav.xyz##.pum-overlay
 xfast.sbs###overlay
+xinhmupvn.net##.catfix
+xinhmupvn.net,sexhihi.fit,laalmirchitakeaway.co.uk##.catfish-top
 xiuren.org###bannerIn
 xiuren.org###exoIMFrame
 xiuren.org###nativeAds_1505931906161

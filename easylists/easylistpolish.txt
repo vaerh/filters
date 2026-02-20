@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Nx+D7YeWb2uQeVqDEW1aiQ
-! Version: 202602190231
+! Checksum: XLHHQa/WDEAQ5CE7a2Y2+w
+! Version: 202602200221
 ! Title: EasyList Polish
-! Last modified: 19 Feb 2026 02:31 UTC
+! Last modified: 20 Feb 2026 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2185,7 +2185,7 @@ mjakmama24.pl,muratordom.pl,poradnikzdrowie.pl,urzadzamy.pl##.zpr_inside_1_wide
 eska.pl,muratorplus.pl,voxfm.pl##.zpr_inside_2
 muratordom.pl,poradnikzdrowie.pl##.zpr_inside_2_wide
 mjakmama24.pl,muratorplus.pl,radioplus.pl##.zpr_shopping__article
-dwa.eska.pl,muratordom.pl,se.pl##.zpr_side_1_noscroll
+dwa.eska.pl,muratordom.pl,muratorplus.pl,se.pl##.zpr_side_1_noscroll
 eska.pl,eskarock.pl,muratordom.pl,voxfm.pl##.zpr_top_1
 eredivisie.pl,goal.pl,kadra.pl,ligapolska.pl,primeradivision.pl,seriea.pl##:not([align]) > a[href*="/goto/"]
 pwm.org.pl##A[onclick^="countAdClick"]
