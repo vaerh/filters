@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Jjspm+nmGVrSub/NkctVDA
-! Version: 202602210221
+! Checksum: /H991TwO0DZslmE2wq3mRw
+! Version: 202602220231
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Feb 2026 02:21 UTC
+! Last modified: 22 Feb 2026 02:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18236,6 +18236,8 @@ gorodvo.ru,kinoafisha.info,kinonews.ru##advertronic-slot
 nsp.ru##app-advertising-card a[href*="utm_campaign"][target="_blank"]
 nsp.ru##app-article-banner
 24tv.ua##app-desktop-top-banner
+football24.ua##app-external-content
+football24.ua##app-ideal-media-between-news
 24tv.ua,football24.ua##app-main-page-adv-block
 football24.ua##app-simple-membrana-adv-block
 nsp.ru##app-topline-advertising
@@ -25597,6 +25599,7 @@ yagd-torr.ru##div[id^="plusplus_mw"]
 agrarii-razom.com.ua##div[id^="user-to-register"]
 htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="position:"][style*="orange"][style*="z-index:"]
 drukarnia.com.ua##header ~ section[role="dialog"]
+bbc.com#?#header[role="banner"] > div > div:has(> div > div > p > [href*="/cookies/"])
 surl.*##.card-body > .row > div:first-child:not(:only-child)
 surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ! --- Блокировки
@@ -26318,6 +26321,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||mads.su^$~third-party
 @@||madyar.net/baners/$domain=madyar.net
 @@||magictime.net.ua/wp-content/plugins/m-wp-popup$script,domain=magictime.net.ua
+@@||magnit.ru/scripts/prebid.js|$script,~third-party
 @@||mangalbbq.ru/upload/$image,domain=mangalbbq.ru
 @@||map.cn.ua/media/*/tur/
 @@||maxcdn.bootstrapcdn.com^$script,domain=gwss.ru|lgotivam.ru|rvb.ru|vsedeserti.ru
@@ -26610,6 +26614,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 4pda.to#@#[data-revive-zoneid]
 espreso.tv,tasix.me#@#[id*="ScriptRoot"]
 mail.google.com#@#a[href^="http://mgid.com/"]
+magnit.ru#@#a[href^="https://yandex.ru/adfox/"]
 disk.yandex.ru,disk.yandex.*#@#.content_ads
 blocksandfiles.com,milanac.ru#@#div[class*="td-a-rec-id-"]
 pets.mail.ru#@#div[data-adq-id^="adqcontainer"]
