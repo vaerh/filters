@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602230229
+! Version: 202602240225
 ! Title: EasyPrivacy
-! Last modified: 23 Feb 2026 02:29 UTC
+! Last modified: 24 Feb 2026 02:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8d31cabbec420273c2f4ad4f940b171321315f76
+! Commit: e43c1dfa868bf34d849745bffd72b2047868a316
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -109,6 +109,7 @@
 /?swift-performance-tracking
 /_/api/v2/analytics/?
 /_/lite/performance/*
+/__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
@@ -1078,6 +1079,7 @@
 /gc?refurl=
 /gcount.pl?
 /gd_tracker_events.js
+/gdm-user-insights.js
 /gemius.3.15.js
 /gemius.js
 /gen204/*
@@ -9984,6 +9986,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-fe.digital-cloud-prem.medallia.com^
 ||analytics-fe.digital-cloud.medallia.com^
+||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
 ||analytics-production.hapyak.com^
