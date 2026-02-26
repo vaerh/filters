@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9uCOyeI4hFZwwsH54bxsvw
-! Version: 20260224151808571
+! Checksum: 8QjmR/WFi9eQc8/DKQhTQA
+! Version: 20260225181850366
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
 ! Title: ABPVN List
-! Last modified: 24 Feb 2026 15:18:08 UTC+7
-! Diff-Path: patches/20260224151808571.patch#abpvn
+! Last modified: 25 Feb 2026 18:18:50 UTC+7
+! Diff-Path: patches/20260225181850366.patch#abpvn
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -46,8 +46,8 @@ $popup,domain=truyenfull.vision
 /core/*$script,domain=gamek.vn|genk.vn|kenh14.vn|cafef.vn|thanhnien.vn
 /disable-devtool.min.js$script
 /giadinhonline.vn/files/qc/*
-/i.imgur.com/*.gif$domain=keonhacai55.lat|www.motchill46.com|slatecoffee.com|vebotva.cc|songclip.com|listnhacai88.com|savethislife.com|mitomzh.cc|rakhoivq.cc
-/images/company/21.png$image,domain=vebotva.cc|savethislife.com|slatecoffee.com
+/i.imgur.com/*.gif$domain=keonhacai55.lat|www.motchill48.com|roninhk.com|vebotva.cc|harassmentfreealbany.com|listnhacai88.com|savethislife.com|mitomzh.cc|rakhoivq.cc
+/images/company/21.png$image,domain=vebotva.cc|savethislife.com|roninhk.com
 /js/ads.js$script,~third-party,domain=~vipurl.in
 /lv/esnk/*$script
 /newchill/*gif$image
@@ -106,7 +106,7 @@ $popup,domain=truyenfull.vision
 ||cdn-live.bunchatv.net^*.gif$image,domain=bunchatv.net
 ||cdn-live.taoxanh.biz/live-dev/cms/*.gif$image,domain=bunchatv.net
 ||cdn.giavang.org/images/ads/$image,domain=giavang.org
-||cdn.lfastcdn.com^*.gif$image,domain=bongdainfox.tv|savethislife.com|rakhoivq.cc|songclip.com|mitomzh.cc|vebotva.cc
+||cdn.lfastcdn.com^*.gif$image,domain=bongdainfox.tv|savethislife.com|rakhoivq.cc|harassmentfreealbany.com|mitomzh.cc|vebotva.cc
 ||cdn.monkeydarchive.com/images/banner/$image,domain=monkeyd.net.vn
 ||cdn.webhoctienganh.com/asset/home/img/banner/$image,domain=webhoctienganh.com
 ||cdn1.fastestcdn-global.com/gavangtv/*.gif$image
@@ -172,8 +172,8 @@ $popup,domain=truyenfull.vision
 ||motchill.fm^*.gif$image
 ||motchill.us.org^*.gif$image
 ||motchillk.bz^*.gif$image
-||motchillzr.io^*.gif
-||motchillzr.io^*.gif$~third-party
+||motchilll.ws^*.gif
+||motchilll.ws^*.gif$~third-party
 ||motphimtv.bz^*.gif$image
 ||mplmncb.com/banners-web/$script,image,domain=truyenqqno.com
 ||mplmncb.com/popup/$script,domain=truyenqqno.com
@@ -203,7 +203,7 @@ $popup,domain=truyenfull.vision
 ||qmanga.art/banner_image/$image,~third-party
 ||qthang.net/js/blocker$script,~third-party
 ||quaivatdienanh.com/*banner$image
-||quoracdn.net^$image,domain=www.motchill46.com|phimlongtieng.net
+||quoracdn.net^$image,domain=www.motchill48.com|phimlongtieng.net
 ||run.vn/widget$script,~third-party
 ||s.lazada.vn^$popup,domain=chillphimmoizz.org
 ||s1.truyentranh3q.com^*.gif$image,domain=manhua3q.com
@@ -256,7 +256,7 @@ $popup,domain=truyenfull.vision
 ||www.bongdalu811.com^*.gif
 ||www.clbgamesvn.com/diendan/popup/popup.js$script,~third-party
 ||www.iosviet.com^$csp=script-src 'self' 'unsafe-inline' http: https:
-||www.motchill46.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.motchill46.com
+||www.motchill48.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.motchill48.com
 ||xahoingaynay.com.vn/upload/$image
 ||xc.1357668.com^$image,domain=7mvn6.com
 ||xem16.net^*.gif
@@ -467,7 +467,7 @@ chap.vn##.titleBar + *
 chap.vn##[class1="my_responsive_add"]
 chat.vebotv.me##.chat-header
 chat.vebotv.me##[href="https://8xbe52.com"]
-chatboxn.com,slatecoffee.com##a[target="_blank"][rel="nofollow"]
+chatboxn.com,roninhk.com##a[target="_blank"][rel="nofollow"]
 checkscam.vn##.qh_qcbp
 chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
@@ -494,7 +494,7 @@ comong.info###virtualLayer
 congan.com.vn###subiz_wrapper
 congan.com.vn##.ad-embed
 congthucvatly.com##.mb-4>[style="min-height: 350px;"]
-congthucvatly.com,phuongtrinhhoahoc.com,xem16.net,r.cakeo3.rocks,exokit.org,motchillzr.io##.fixed
+congthucvatly.com,phuongtrinhhoahoc.com,xem16.net,r.cakeo3.rocks,exokit.org,motchilll.ws##.fixed
 contuhoc.com,cbox.ws##a[rel="noopener noreferrer"]
 cryptoviet.com##.widget-wrap.widget_text
 cumeo.link##.gap-2.mt-2.grid-cols-\[1fr_auto_1fr\].grid>.text-sm.font-semibold.rounded-sm.text-white.shadow-custom.bg-brand.-skew-x-8.uppercase.py-2.px-4.cursor-pointer.justify-center.items-center.flex.h-full
@@ -571,6 +571,13 @@ gocmod.com##.wam-banner
 gocmod.com##.wrp-min>center
 gocmod.com##center:has(.adsbygoogle)
 gocmod.com##div[style^="position: fixed"]
+harassmentfreealbany.com##.container.mt-1.d-none.d-lg-block
+harassmentfreealbany.com##.menu-item-object-custom
+harassmentfreealbany.com##.sub-menu.d-none.d-lg-flex
+harassmentfreealbany.com,roninhk.com,vebotva.cc###quangcaopc
+harassmentfreealbany.com,roninhk.com,vebotva.cc##.marquee-container
+harassmentfreealbany.com,roninhk.com,vebotva.cc,savethislife.com,rakhoivq.cc###wap_bottombanner
+harassmentfreealbany.com,vebotva.cc##.align-items-center.justify-content-between.d-flex.col-12>.d-lg-none.d-block
 hhanime3d.ee,hhtq.pw###top_addd
 hhdragon.us##.catfish-img
 hhninja30.tv,hhtq13.vip,hhtqvietsub.cc,hhtutien.cc,animeweb.vip,animehay.icu,hhtq3d.net,hhvsub1.com,phimdacap.tv,motchillk.bz,hhdragon.us,hh2d.tv###catfish
@@ -607,7 +614,7 @@ keoso.me##.widget-sidebar-block
 ketqua04.net##.baloon
 ketqua04.net##.col-sm-10.kqcenter
 ketqua04.net##.kqbackground.vien ~ a[target="_blank"]
-ketqua04.net,nghean24h.vn,xem.tructiepnba.me,xemtivi4k.com,bongdainfox.tv,90phuttv.link,www.motchill46.com,thapcam73.live,thapcam73.life,thapcam84.info,thapcam84.life,xoilac9.info##a[rel="nofollow"]
+ketqua04.net,nghean24h.vn,xem.tructiepnba.me,xemtivi4k.com,bongdainfox.tv,90phuttv.link,www.motchill48.com,thapcam73.live,thapcam73.life,thapcam84.info,thapcam84.life,xoilac9.info##a[rel="nofollow"]
 khiphach.net###qc-kpgame
 kickass.sx##.dssdffds
 kickass.sx##.novertpad.clearleft.downloadButtonGroup.buttonsline
@@ -656,10 +663,10 @@ motchill.fm##.disable-ads-icon
 motchill.fm##.popup-overlay
 motchill.us.org##.float-contact
 motchill.us.org,idirectsolutions.co.za###vl-header-adx
+motchilll.ws##.fixed.inset-0.z-\[9999\].flex.items-center.justify-center.bg-black\/70
 motchillte.cc##.overlay-1
 motchilltvphim.com,phimmoissz.info,subnhanhcx.info##.sda-catfish
 motchilltvphim.com,phimtho.cc,subnhanhcx.info###popup_banner_beta
-motchillzr.io##.fixed.inset-0.z-\[9999\].flex.items-center.justify-center.bg-black\/70
 motchillzz.site,api.anime3s.com##.t_logo
 motchillzz.site,xemphim.site,motphimtv.bz,motchillzl.tv,phimhdc.com,phimhdc.com##.mp-adz
 motphimchillzl.org###catfish_ad_top
@@ -695,7 +702,7 @@ phimchill.life##.popUpBannerBox
 phimdacap.tv###ads-popup
 phimlongtieng.net##.banner-preload-container
 phimlongtieng.net##div[class^="catfish-"]
-phimlongtieng.net,www.motchill46.com,motchill.us.org##.banner-preload
+phimlongtieng.net,www.motchill48.com,motchill.us.org##.banner-preload
 phimmoichill.my,phimmoichillz.top###pm_quangcao
 phimmoichillz.top###preload
 phimmoissz.info###adspm4u
@@ -710,8 +717,24 @@ qmanga.art,khotruyen.ac##.gwd-banner-image
 quantrimang.com###adrighttop
 r.cakeo3.rocks##a.bg-yellow-1[target="_blank"]
 rakhoivq.cc##.bookmaker-selector-container
-rakhoivq.cc,savethislife.com,vebotva.cc,slatecoffee.com##.btn-8xbet
+rakhoivq.cc,savethislife.com,vebotva.cc,roninhk.com##.btn-8xbet
 reatimes.vn##div[class^="adv-"]
+roninhk.com###match-child-1
+roninhk.com##.block-catfish.text-center.d-lg-none.d-block
+roninhk.com##.container>ul
+roninhk.com##.menu-top
+roninhk.com##.offer
+roninhk.com##.offer__btn
+roninhk.com##.pl-lg-0.col-xl-4
+roninhk.com##.row.d-none
+roninhk.com##.widget-offers__list
+roninhk.com##div.d-lg-none.d-block:nth-of-type(3)
+roninhk.com,mitomzh.cc##.menu-cuoc-8xbet
+roninhk.com,mitomzh.cc,vebotva.cc##.menu-top-nha-cai
+roninhk.com,rakhoivq.cc##.sk_balloon
+roninhk.com,savethislife.com##.match-detail__offer
+roninhk.com,vebotva.cc,harassmentfreealbany.com,mitomzh.cc,savethislife.com##div[id^="dnn_"]
+roninhk.com,vebotva.cc,harassmentfreealbany.com,savethislife.com,mitomzh.cc##.company
 sachmoi.net##.boxzilla-bottom-right-container
 sachmoi.net##[href^="https://gotrackecom.info"]
 saostar.vn###mobi-top
@@ -732,31 +755,8 @@ savethislife.com##a.d-lg-none.d-block:nth-of-type(1)
 savethislife.com,rakhoivq.cc##.btn-odds
 savethislife.com,vebotva.cc##.odds-comp
 sieudam.sh##.popup-image
-slatecoffee.com###match-child-1
-slatecoffee.com##.block-catfish.text-center.d-lg-none.d-block
-slatecoffee.com##.container>ul
-slatecoffee.com##.menu-top
-slatecoffee.com##.offer
-slatecoffee.com##.offer__btn
-slatecoffee.com##.pl-lg-0.col-xl-4
-slatecoffee.com##.row.d-none
-slatecoffee.com##.widget-offers__list
-slatecoffee.com##div.d-lg-none.d-block:nth-of-type(3)
-slatecoffee.com,mitomzh.cc##.menu-cuoc-8xbet
-slatecoffee.com,mitomzh.cc,vebotva.cc##.menu-top-nha-cai
-slatecoffee.com,rakhoivq.cc##.sk_balloon
-slatecoffee.com,savethislife.com##.match-detail__offer
-slatecoffee.com,vebotva.cc,songclip.com,mitomzh.cc,savethislife.com##div[id^="dnn_"]
-slatecoffee.com,vebotva.cc,songclip.com,savethislife.com,mitomzh.cc##.company
 soha.vn,gamek.vn##[id^="admzone"]
 soicau247s.org##.linkBanner
-songclip.com##.container.mt-1.d-none.d-lg-block
-songclip.com##.menu-item-object-custom
-songclip.com##.sub-menu.d-none.d-lg-flex
-songclip.com,slatecoffee.com,vebotva.cc###quangcaopc
-songclip.com,slatecoffee.com,vebotva.cc##.marquee-container
-songclip.com,slatecoffee.com,vebotva.cc,savethislife.com,rakhoivq.cc###wap_bottombanner
-songclip.com,vebotva.cc##.align-items-center.justify-content-between.d-flex.col-12>.d-lg-none.d-block
 sport5.vn,afamily.vn##.afw-topbanner
 ss.90phut27.com,vebo8.fun,vebo8.hair##.for-desktop
 ss.90phut27.com,vebo8.fun,vebo8.hair##.to-left
@@ -849,7 +849,7 @@ tuoitre.vn##.section__r-vietlot
 tuoitre.vn,vnexpress.net###admbackground
 tv.tvhayhd.org##.navbar-ex8-collapse
 tvhayd.org##[src^="https://ads.starzd.com/"]
-tvhayd.org,www.motchill46.com,idirectsolutions.co.za,motchill.us.org##.catfish-bottom
+tvhayd.org,www.motchill48.com,idirectsolutions.co.za,motchill.us.org##.catfish-bottom
 v4u.vn##.Flagrow-Ads-under-header
 vebo8.fun##.for-mobile
 vebo8.fun##div.vebo-sp.container
@@ -914,10 +914,10 @@ www.clbgamesvn.com##.bannerBox
 www.clbgamesvn.com##.footerBanner
 www.clbgamesvn.com##center>[href*="tlink.vn"]
 www.iosviet.com##[href^="https://shope.ee"]
-www.motchill46.com##.BanerTop100
-www.motchill46.com##.adv-300-right
-www.motchill46.com,amlich.org##.banner-container
-www.motchill46.com,idirectsolutions.co.za##.catfish-top
+www.motchill48.com##.BanerTop100
+www.motchill48.com##.adv-300-right
+www.motchill48.com,amlich.org##.banner-container
+www.motchill48.com,idirectsolutions.co.za##.catfish-top
 www.saostar.vn###mobi-sapo
 www.saostar.vn###page-skin-top-holder
 www.saostar.vn###pc-bill-top
@@ -1050,6 +1050,7 @@ vozer.io#@#[class^="div-gpt-ad"]
 @@||www.vipads.live/vn/79B0206C-76B6-1910-34-B2A59522DC31.blpha$domain=lxmanga.space
 @@||www.vipads.live/vn/c-1911-25.js$domain=lxmanga.space
 docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
+||19holebar.com^*.gif$image
 ||26efp.com/js/dulak2.js$script,~third-party
 ||anhgaixinh.online^*.webp$image
 ||as-technology.co.uk^*.gif$image
@@ -1066,6 +1067,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||cruncherpatiencestoreroom.com^$popup,domain=cap3.website|qmh.sex
 ||discordapp.$image,domain=phim18vip.top|thefaplive.com|phimsexsub.website
 ||gamer18.net^*.gif$image
+||gutiziak.com^*.gif$image
 ||hellobabygirl.live/*/adx*.js$domain=nung18.com|phimxxx.ai
 ||hentaivn.show/banner_image/$image
 ||hhkungfu.us^*.gif$image,domain=z.chinav.sex|s2.phimsexvn1.blog
@@ -1079,10 +1081,9 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||javtopxx2.com^*.gif$image
 ||l1.stream4k.online^*.gif$image,domain=genzsex.blog
 ||laalmirchitakeaway.co.uk^*.gif
-||luminatra.co.uk^*.gif$image
 ||lxmanga.space/storage/images/banners
+||makeitwork4u.co.uk^*.gif$image
 ||mangadm.cc$csp=script-src 'self' 'unsafe-inline' http
-||marlboroughlionsclub.co.uk^*.gif$image
 ||mialsja.life^$image,domain=phimxxx.ai
 ||ngaytho.me^*.gif
 ||phimsexhayvn119.com^*.gif$image
@@ -1098,7 +1099,6 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||sexlive.biz/mb66.mp4$media,~third-party
 ||sexlive.biz^*.avif$~third-party
 ||sieukhung.net^*.gif$image
-||tecabalis.com^*.gif$image
 ||thiendia1.vip/banner/$image
 ||truyensextv.com/anh/$image
 ||truyensextv.com^*.gif
@@ -1115,6 +1115,8 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||xnhau.blog^$media,domain=xnhau.hot
 !---------- ABPVN Adult Element Hide ---------------
 ##[href^="https://www.i9017.com/"]
+19holebar.com##.xx-ads
+19holebar.com,haysexvn.lol###vl-header-adx
 @@||lxmanga.space$generichide
 abc.systemcdncdn.store##iframe + img
 anhgaixinh.online##.footer-banner
@@ -1152,9 +1154,7 @@ javtopxx2.com###fbox-background
 javtopxx2.com##.logo-player
 javtopxx2.com##.sticky_bottom
 laalmirchitakeaway.co.uk##.banner-preload
-luminatra.co.uk###catfish
-marlboroughlionsclub.co.uk##.xx-ads
-marlboroughlionsclub.co.uk,haysexvn.lol###vl-header-adx
+makeitwork4u.co.uk###catfish
 ngaytho.me##.body_wrapper1
 nung18.com##.jw-overlays>img[src]
 pheclip.love,phim18vip.top##.in.fade.modal-backdrop
@@ -1186,6 +1186,7 @@ s2.phimsexvn1.blog###cashfit-spacer
 s2.phimsexvn1.blog##.ads-header
 sayhentai.world#@#.c-ads
 sexhaynung.xyz###tut4ktream_idAdLink
+sexhd.eu.com,phimsex12x.pro##.quangcaomobile
 sexlive.biz,haysexvn.lol,viet69hayz.life##.popup
 sextop.asia##div[style^="position:fixed;inset:0px;z-index:100000;"]
 sextop.asia,hls.playerfb.xyz###video_player ~ div[id]
@@ -1244,4 +1245,3 @@ xnxx.com###content-ad-top-zone
 z.chinav.sex###cashfit-banner-host
 z.chinav.sex##.adbox
 z.chinav.sex##.banner-container
-zphimsex25.pro,phimsex12x.pro##.quangcaomobile
