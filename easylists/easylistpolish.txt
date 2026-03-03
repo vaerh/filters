@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yXLLmdcQq3VKmowU3IejCQ
-! Version: 202603020231
+! Checksum: 1c8OR/AeVf6v9ruZw78B+w
+! Version: 202603030231
 ! Title: EasyList Polish
-! Last modified: 02 Mar 2026 02:31 UTC
+! Last modified: 03 Mar 2026 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2606,6 +2606,7 @@ nowawrzesnia.pl##a[href="https://www.lazienkowepasje.pl/"]
 bydgoszcz.com##a[href="https://www.lh.pl/hosting?ref=nowaksolutions"]
 e-kg.pl##a[href="https://www.mazowieckapark.pl/"]
 forum.alfaholicy.org##a[href="https://www.motodelta.pl/"]
+narew.info##a[href="https://www.narew.info/artykul/32867,nowosci-od-mlekpolu-laciaty-protein-w-letniej-odslonie"]
 cksport.pl##a[href="https://www.odzywkidlasportowcow.pl/"]
 dbpolska.net##a[href="https://www.panini.pl/shp_pol_pl/dragon-ball-super-the-legend-of-son-goku-trading-card-collection-2-pude-ka-z-24-saszetkami-megazestaw-startowy-bundle004281b5pl48sp-it.html"]
 cypr24.eu##a[href="https://www.paphos.pl"]
