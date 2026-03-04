@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1c8OR/AeVf6v9ruZw78B+w
-! Version: 202603030231
+! Checksum: Cv7IMzD5IP62u1eFt2zQFA
+! Version: 202603040221
 ! Title: EasyList Polish
-! Last modified: 03 Mar 2026 02:31 UTC
+! Last modified: 04 Mar 2026 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2364,6 +2364,7 @@ cozadzien.pl##a[href*="czesciauto24.pl"]
 gloswroclawia.pl##a[href*="dresowka.pl"]
 gotujzmaka.blogspot.com##a[href*="ebrokerpartner"]
 itvregion.pl##a[href*="expert1.info"]
+narew.info##a[href*="galeriajurowiecka.com.pl"]
 hifi.pl##a[href*="grandi"]
 gloswroclawia.pl##a[href*="halenamiotowe.com.pl"]
 eko-mazurymariny.pl##a[href*="hoteltajty.pl"]
