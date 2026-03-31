@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W8k9/QTPWsqN4MEIAXjR9w
-! Version: 202603300311
+! Checksum: uGnuurrWqDQEuC0wN/Ldtg
+! Version: 202603310241
 ! Title: EasyList Polish
-! Last modified: 30 Mar 2026 03:11 UTC
+! Last modified: 31 Mar 2026 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -521,6 +521,7 @@ files.librus.pl^*^r_
 ||niebiescy.pl^*^iparts_
 ||niebiescy.pl^*^piroshop_
 ||niebiescy.pl^*^stefanik_
+||nolesnica.pl/static/files/gallery/68/481aa-banner_1000x100.jpg
 ||nolesnica.pl/static/files/gallery/68/f0756-GRAFIKA-1000X100.png
 ||odkryjpomorze.pl^*^loga_prawa_
 ||ogloszeniarolnicze.com.pl^**^mkw-nowa.
