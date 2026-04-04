@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5SDzLlRXAWJlEpwsp2rKvg
-! Version: 202604030241
+! Checksum: WJTA/miPKAwIGAlp8lFvuQ
+! Version: 202604040231
 ! Title: EasyList Polish
-! Last modified: 03 Apr 2026 02:41 UTC
+! Last modified: 04 Apr 2026 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2955,7 +2955,7 @@ ewyszkow.pl##div[id*="advertisement"]
 ising.pl##div[id*="as-zone"]
 korsokolbuszowskie.pl##div[id*="autoAd"]
 lajfy.com##div[id*="banner"]
-infokonin.com.pl,jaw.pl##div[id*="bills"]
+infokonin.com.pl,jaw.pl,nowawrzesnia.pl##div[id*="bills"]
 lesko.info##div[id*="block"]
 kanal10.pl##div[id*="superbanner"]
 rekomendowanefirmy.pl##div[id^="AD-"]
