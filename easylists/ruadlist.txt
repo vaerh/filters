@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e3aY9pyAUW+8X1aoQudtbQ
-! Version: 202604040231
+! Checksum: P7Le7C3yQ1LVap0X+WIcpg
+! Version: 202604050301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Apr 2026 02:31 UTC
+! Last modified: 05 Apr 2026 03:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19782,7 +19782,7 @@ teremok.org.ua##img[src*="/partner/images/"]
 me3.com.ua##img[src*="/static/banners/"]
 vashurok.ru##img[src*="/system/banners/"]
 allgosts.ru##img[src*="/theme/img/hmwk/"]
-dnl.com.ua,dnl.dn.ua,go64.ru,gubkinskiy.com,infoniac.ru,lipetskmedia.ru,paparazzi.ru,trk7.ru,zi.ua##img[src*="/upload/rk/"]
+dnl.com.ua,dnl.dn.ua,go64.ru,gubkinskiy.com,infoniac.ru,lipetskmedia.ru,paparazzi.ru,securitylab.ru,trk7.ru,zi.ua##img[src*="/upload/rk/"]
 pnp.ru##img[src*="/upload/user/banner-adv-"]
 tyachivnews.in.ua##img[src*="/uploads/blocks/"]
 ksza.ks.ua##img[src*="/uploads/rain."]
@@ -26905,7 +26905,7 @@ spletnik.ru##.z-adblock-message
 /assets/ARu.$image,domain=yummy-ani.me|yummy-anime.ru|yummyani.me
 /fck-ab-code.js$domain=the-office.su
 /ggl/*$script,~third-party,domain=lektsii.org|megaobuchalka.ru|mydocx.ru|studopedia.com.ua|studopedia.net|studopedia.org|studopedia.ru|studopedia.su
-/help?ajax=1&name=about_cookie$xmlhttprequest,domain=reshu.by|reshuent.kz|sdamgia.ru
+/help?ajax=1&name=about_cookie$xmlhttprequest,domain=reshuent.ru|sdamgia.ru
 /javascript_adblockdetector/*$script,domain=baku365.com
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
