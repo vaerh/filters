@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604070201
+! Version: 202604080246
 ! Title: EasyPrivacy
-! Last modified: 07 Apr 2026 02:01 UTC
+! Last modified: 08 Apr 2026 02:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1bcf2a3a7fc99978f686198e817ef3188fd0502c
+! Commit: d72c65486a9d426d37f4dab22f924cfcf8d4e0ba
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1611,6 +1611,7 @@
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
+/network-analytics.js
 /neustar.beacon.js
 /new-client/trackers.
 /new-relic.js
@@ -7532,6 +7533,7 @@ omni.soundestlink.com$image
 ||hustlercoach.com^
 ||hybridburst.com^
 ||hydraconcept.com^
+||hypercarart.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
 ||hystericalcloth.com^
@@ -8780,6 +8782,7 @@ omni.soundestlink.com$image
 ||withsounds.com^
 ||wittypopcorn.com^
 ||wizardbuck.com^
+||wizardstrategy.com^
 ||wondermakings.com^
 ||wordchip.com^
 ||workhorsefunds.com^
