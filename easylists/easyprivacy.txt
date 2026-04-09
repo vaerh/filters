@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604080246
+! Version: 202604090207
 ! Title: EasyPrivacy
-! Last modified: 08 Apr 2026 02:46 UTC
+! Last modified: 09 Apr 2026 02:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d72c65486a9d426d37f4dab22f924cfcf8d4e0ba
+! Commit: f56822d3c66021a2a0ac840b1e60cdb615b90265
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3391,6 +3391,7 @@ _WebVitalsReporter_
 /tracking.srv2.de/op/*$image
 /tracking/email.php
 /trcksp.
+/use1-track.atlassian.com/*
 /wf/open?upn=$image
 /wizrocketmail.net/r?$image
 /znsrc.com/c/*$image
@@ -6647,6 +6648,7 @@ omni.soundestlink.com$image
 ||abstractedauthority.com^
 ||absurdapple.com^
 ||abundantcoin.com^
+||accountgram.com^
 ||accountsdoor.com^
 ||accurateanimal.com^
 ||accuratecoal.com^
@@ -6701,6 +6703,7 @@ omni.soundestlink.com$image
 ||ambiguousincome.com^
 ||ambrosialsummit.com^
 ||amethystzenith.com^
+||amidsttruly.com^
 ||amuckafternoon.com^
 ||amusedbucket.com^
 ||amusementmorning.com^
