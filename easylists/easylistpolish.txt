@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r40lw7DFYdtQOrdj+qGkNg
-! Version: 202604100311
+! Checksum: bjdr3JVWLABbQcYMQBf7qQ
+! Version: 202604110231
 ! Title: EasyList Polish
-! Last modified: 10 Apr 2026 03:11 UTC
+! Last modified: 11 Apr 2026 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -529,6 +529,7 @@ files.librus.pl^*^r_
 ||nowepomorze.pl/templates/yootheme/cache/86/Natur-House-8635256a.webp
 ||nowezyciepabianic.pl/wp-content/uploads/2025/12/KOALICJA-OBYWATELSKA-JPG-1-700x400.jpg
 ||nowezyciepabianic.pl/wp-content/uploads/2025/12/MIKOLAJKI-W-KINIE-TOMI-800-x-800-px-1.gif
+||nowezyciepabianic.pl/wp-content/uploads/2025/12/MOKJPG-700x400.jpg
 ||nowezyciepabianic.pl/wp-content/uploads/2025/12/PABIANMEDJPG-700x400.jpg
 ||odkryjpomorze.pl^*^loga_prawa_
 ||ogloszeniarolnicze.com.pl^**^mkw-nowa.
