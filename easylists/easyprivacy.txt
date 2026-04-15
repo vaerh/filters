@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604140308
+! Version: 202604150307
 ! Title: EasyPrivacy
-! Last modified: 14 Apr 2026 03:08 UTC
+! Last modified: 15 Apr 2026 03:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1d99ff16754a781a2c2bf30efe79354305b3c0f9
+! Commit: 2b060424bf03e348b3e542e53dccd2aac263fb6e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5293,7 +5293,6 @@ omni.soundestlink.com$image
 ||metarouter.io^$third-party
 ||meteorsolutions.com^$third-party
 ||metricode.com^$third-party
-||metricool.com^$third-party
 ||metrics0.com^$third-party
 ||metricsdirect.com^$third-party
 ||metricswave.com^$third-party
@@ -6005,6 +6004,7 @@ omni.soundestlink.com$image
 ||statinside.com^$third-party
 ||statisfy.net^$third-party
 ||statistiche-web.com^$third-party
+||statlytic.net^$third-party
 ||statowl.com^$third-party
 ||statpipe.ru^$third-party
 ||stats2.com^$third-party
@@ -7576,7 +7576,6 @@ omni.soundestlink.com$image
 ||internalcondition.com^
 ||internalsink.com^
 ||intricateberry.com^
-||inventorycache.com^
 ||inventtango.com^
 ||invoicetick.com^
 ||iotapool.com^
@@ -10840,6 +10839,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.woosmap.com^
 ||data2.gosquared.com^
 ||datadog-service.mvfglobal.com^
+||datadome00.id.me/tags.js
 ||datasign.co/js/opn.js
 ||datasphere-sbsvc.sharethis.com^
 ||daxab.com/logger/
@@ -11331,6 +11331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infusionsoft.com^*/getTrackingCode?
 ||ingest.make.rvapps.io^
 ||ingesteer.services-prod.nsvcs.net^
+||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingress.trendii.com^
 ||inmobi.com/?log
 ||inmoment.com.au/intercept/$third-party
@@ -12626,6 +12627,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.jkstremum.xyz^
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
+||tracker.metricool.com^
 ||tracker.mrpfd.com^
 ||tracker.myth.dev^
 ||tracker.myyschool.xyz^
