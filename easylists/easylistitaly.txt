@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cIyRaG8ZFkLNxHapuGKIyg
-! Version: 202604200321
+! Checksum: V7zkkgmgWXy3GLkm42B57g
+! Version: 202604210311
 ! Title: EasyList Italy
-! Last modified: 20 Apr 2026 03:21 UTC
+! Last modified: 21 Apr 2026 03:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -2505,6 +2505,7 @@ quattroruote.it,sky.it##.c-adv
 domusweb.it##.c-article-prev--sponsored
 empolifc.com##.c-footer__sponsors-container
 trento2018.it##.callExclusive
+corriere.it##.card--adv
 campanialike.com##.cardSponsorColonnaDestra
 assisieventi.it,lavocedelpalio.it,superj.it##.carousel
 gazzettamatin.com##.carousel_post_slot
