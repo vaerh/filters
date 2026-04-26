@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604250251
+! Version: 202604260318
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2026 02:51 UTC
+! Last modified: 26 Apr 2026 03:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 54f11b1d970686900baf107bf5ce3f65261c3d9b
+! Commit: 9e0620cf8a31dbf73a472d6ab6dec64d2ef3f284
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8836,6 +8836,7 @@ omni.soundestlink.com$image
 ||wretchedfloor.com^
 ||writerhubs.com^
 ||writewealth.com^
+||writingcalls.com^
 ||wrongpotato.com^
 ||wrongwound.com^
 ||wtaccesscontrol.com^
@@ -10052,6 +10053,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affirm.com/api/v2/cookie_sent
 ||affirm.com/api/v2/session/touch_track
 ||afterpay.com^*/v1/event
+||aim-tag.hcn.health^
 ||akamaihd.net/p1lakjen.gif
 ||akamaized.net/cookie_check/
 ||akatracking.esearchvision.com^
@@ -10271,6 +10273,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticsplusdev.clientify.net^
 ||analyticssec.overwolf.com^
+||analyze-82dfgsi2.m-w.com^
 ||ancestrycdn.com/tao/at/
 ||anyclip.com/getuids?
 ||anyclip.com/v1/events
@@ -10871,6 +10874,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.jaytuckwell.com^
 ||data.minute.ly^
 ||data.nexxt.com^
+||data.pendo.io/data/errorlog?
+||data.pendo.io/data/guide.gif/
 ||data.queryly.com^
 ||data.replo.app^
 ||data.wiris.cloud/telemetry/
@@ -11995,6 +12000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||primer.typekit.net^$xmlhttprequest
 ||prism.app-us1.com^$script,third-party
 ||prismaconnect.fr/prd/ping
+||privacy-analytics-proxy.cookiebot.com^
 ||privacy-center.org^*/events
 ||privacy.outdoorsg.com^
 ||processor.asccommunications.com^
@@ -14812,6 +14818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||barry-callebaut.com/pd.js
 ||bat.maydream.com^
 ||bats.video.yahoo.com^
+||bc.nejm.org/script.js
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
 ||bcbits.com/bundle/bundle/1/impl-$domain=bandcamp.com
 ||beacon.dropbox.com^
@@ -14905,6 +14912,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||cdn.jsdelivr.net/npm/@adshield/
+||cdn.reverso.net/rumjs/
 ||cdp.vercel.com/rs/
 ||centerblog.net/stats.js
 ||cgtn.com/api/collect/
@@ -15848,6 +15856,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pappagallu.onefootball.com^
 ||pardot.com/pd.js
 ||partsgeek.com/sspgt/
+||patient.info/a31h/
 ||pay4fans.com/api/analytics
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
@@ -15939,6 +15948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prisma.io/gastats.js
 ||priv.gc.ca/m/m.js
 ||privacy-api.9gag.com^
+||privacy.reverso.net^
 ||privacyfriendly.netlify.app^
 ||privacypolicies.com/track/
 ||private.wccftech.com^
@@ -16131,6 +16141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smartlink-api.amuse.io/api/analytics/
 ||smassets.net/assets/anonweb/anonweb-click-
 ||smetrics.couponcabin.com^
+||smetrics.inova.org^
 ||smetrics.ralphlauren.com^
 ||smetrics.vanguard.com^
 ||smutty.com/ajax/trcking/
@@ -16322,6 +16333,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t3.chat/api/event
 ||t3.chat/js/xt/script.js
 ||t810.ctpost.com^
+||tagdelivery.mayoclinic.org^
 ||tagger.ope.scmp.com^
 ||tagging.steelseries.com^
 ||tags-event.woolworths.co.nz^
