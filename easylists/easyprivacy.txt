@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605020319
+! Version: 202605030332
 ! Title: EasyPrivacy
-! Last modified: 02 May 2026 03:19 UTC
+! Last modified: 03 May 2026 03:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0965cc3472afdd5e44b9c6a054a325a550cbf3bb
+! Commit: ee7a7e48a831b6c1e484a39d2411103d14a289c6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6891,6 +6891,7 @@ omni.soundestlink.com$image
 ||broadcastbed.com^
 ||brotherslocket.com^
 ||brownboxgroup.com^
+||browserguides.net^
 ||bruisebaseball.com^
 ||bubblyaction.com^
 ||bucketlistbob.com^
@@ -6925,6 +6926,7 @@ omni.soundestlink.com$image
 ||calvarycards.com^
 ||calypsocapsule.com^
 ||camelsfestival.com^
+||camelspark.com^
 ||cannonborough.com^
 ||cannonchange.com^
 ||canvasandsocks.com^
@@ -13913,6 +13915,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||oval.id/tracker/
 ||parsley.detik.com^
 ||tracker.oval.id^
+||un.kumparan.com^
 ! Italian
 ||alice.it/cnt/
 ||analytics.competitoor.com^
@@ -16198,6 +16201,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.carwow.
+||sst.fdiintelligence.com^
 ||sst.shopware.com^
 ||st.sawlive.tv^
 ||stackoverflow.com/_/client-timings
@@ -54429,6 +54433,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||t.bukalapak.com^
 ||ta.tokopedia.com/promo/v1/views
 ||tokopedia.com/helios-client/client-log
+||tracker-beam.tempo.co^
 ! Italian
 /~shared/do/~/count/?$image
 ||adnkronos.com/akTracking_isf.js
