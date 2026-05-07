@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9zbnE1HZhwdqpwIklUUwFg
-! Version: 202605060331
+! Checksum: zVN5DLQJBD6fTvGgVdz8Tw
+! Version: 202605070331
 ! Title: EasyList Polish
-! Last modified: 06 May 2026 03:31 UTC
+! Last modified: 07 May 2026 03:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2442,6 +2442,7 @@ footbar.info##a[href="/go/betclic"]
 emecze.pl##a[href="/go/canalonline"]
 footbar.info##a[href="/go/fortuna"]
 kaliszak.pl##a[href="/praca-magisterska-licencjat-profesjonalna-pomoc-137660"]
+nowytydzien.pl##a[href="/reklama-w-chelmie/"]
 bydgoszczak.pl##a[href="/strona/reklama"]
 blogbukmacherski.pl##a[href="fuksiarz"]
 gotujzmaka.blogspot.com##a[href="http://aduparosnie.pl"]
