@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zVN5DLQJBD6fTvGgVdz8Tw
-! Version: 202605070331
+! Checksum: KWarNRhP8pBpdVW++wF4og
+! Version: 202605080321
 ! Title: EasyList Polish
-! Last modified: 07 May 2026 03:31 UTC
+! Last modified: 08 May 2026 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2616,6 +2616,7 @@ audiostereo.pl##a[href="https://www.audiostereo.pl/index.php?app=core&module=sys
 chillitorun.pl,ddb24.pl##a[href="https://www.autoczescionline24.pl/"]
 nadmorski24.pl##a[href="https://www.autodoc.pl/"]
 bobasmiesiaca.pl##a[href="https://www.autoscribe.online/"]
+nowytydzien.pl##a[href="https://www.betaprim.pl/"]
 bielsko.info##a[href="https://www.bielsko.info/reklama"]
 gazetakolobrzeska.pl##a[href="https://www.bricomarche.pl/gazetka/bricomarche-kolobrzeg"]
 biokurier.pl##a[href="https://www.cobico.pl/produkcja-ekologiczna"]
