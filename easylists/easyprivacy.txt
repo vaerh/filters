@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605090322
+! Version: 202605100319
 ! Title: EasyPrivacy
-! Last modified: 09 May 2026 03:22 UTC
+! Last modified: 10 May 2026 03:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1d049c7d8149bbb2537e3bb6d6a5acd1f52835c5
+! Commit: ae4422e856fed34f0eacd29180f0ea40e3a54599
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6886,6 +6886,7 @@ omni.soundestlink.com$image
 ||brianwould.com^
 ||briefstem.com^
 ||brighttoe.com^
+||briskedge.net^
 ||briskstorm.com^
 ||broadborder.com^
 ||broadcastbed.com^
@@ -6990,6 +6991,7 @@ omni.soundestlink.com$image
 ||childlikeform.com^
 ||chillingtofu.com^
 ||chingovernment.com^
+||chipcardice.com^
 ||chipperisle.com^
 ||chivalrouscord.com^
 ||chubbycreature.com^
@@ -10939,7 +10941,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||distillery.wistia.com^
 ||dl.episerver.net^
 ||dmcdn.net/behavior/
-||dmg-libs.anm.co.uk^
 ||dnnapi.com/analytics/
 ||doh.cq0.co^
 ||doofinder.com/api/v2/stats/
@@ -14937,6 +14938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||cdn.jsdelivr.net/npm/@adshield/
 ||cdn.reverso.net/rumjs/
+||cdp.howtotrade.com^
 ||cdp.vercel.com/rs/
 ||centerblog.net/stats.js
 ||cgtn.com/api/collect/
