@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AGkykb2kqrrB3KW19tMnPQ
-! Version: 202605110351
+! Checksum: KAsY78D4sjqlzsiFx7WshQ
+! Version: 202605120331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 May 2026 03:51 UTC
+! Last modified: 12 May 2026 03:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9377,7 +9377,6 @@ _tizers.
 ||s1venus.com^$third-party
 ||s1venus.org^$third-party
 ||s1vesta.com^$third-party
-||s2517.com^$third-party
 ||s2normal.com^$third-party
 ||s2r.tut.by^
 ||s37click.fun^$third-party
@@ -9564,7 +9563,6 @@ _tizers.
 ||silvermob.com^$third-party
 ||simbad.pro^$third-party
 ||simofor.ru^$third-party
-||simplejsmenu.com^$third-party
 ||sinfosi.ru^$third-party
 ||sionotti.ru^$third-party
 ||siresuperm.bid^$third-party
@@ -24825,6 +24823,7 @@ rbc.ru##div[class^="commercial-formats-"]
 autonews.ru,rbc.ru,rbcautonews.ru,rbclifemedia.ru,sportrbc.ru##div[class^="fox-tail"]
 rbc.ru##div[class^="item-slider__partner"]
 utro.ru##div[class^="partners-block"]
+rbc.ru##div[class^="styles_aside-top_"]
 rbc.ru##div[class^="styles_okko"]
 ||api.mindbox.ru/scripts/*/tracker.$domain=rbc.ru
 ||cnews.ru/inc/js/height_max_banner.js
@@ -25157,6 +25156,7 @@ yandex.ru,yandex.*#?#html[class*=" Theme_color_news-"] div[class*="_type_native"
 ! Яндекс.Афиша
 afisha.yandex.ru,afisha.yandex.*##.adfox
 afisha.yandex.ru,afisha.yandex.*##.afisha-profit-banner
+afisha.yandex.ru,afisha.yandex.*##.top-branding-holder
 afisha.yandex.ru,afisha.yandex.*##div[data-banner-id]
 afisha.yandex.ru,afisha.yandex.*#?#div[data-component="Grid__Page"]:-abp-has(> div > div.adfox[id])
 ! Яндекс.Видео
