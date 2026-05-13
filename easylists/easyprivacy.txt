@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605120335
+! Version: 202605130349
 ! Title: EasyPrivacy
-! Last modified: 12 May 2026 03:35 UTC
+! Last modified: 13 May 2026 03:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e3b92b2a2ea55abab6c9546355e82e31ed39b6d0
+! Commit: d9cd3711ad6fb900287fd67067dcf235231af7dc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7272,6 +7272,7 @@ omni.soundestlink.com$image
 ||epicoldschool.com^
 ||epicswimming.com^
 ||equablekettle.com^
+||esoterictools.com^
 ||essaygiants.com^
 ||essayspin.com^
 ||etherealbamboo.com^
@@ -7296,6 +7297,7 @@ omni.soundestlink.com$image
 ||exuberantedge.com^
 ||fabcharting.com^
 ||fabledsoul.com^
+||fabulousbooking.com^
 ||facilitatebreakfast.com^
 ||factorybarbell.com^
 ||fadedsnow.com^
@@ -7732,6 +7734,7 @@ omni.soundestlink.com$image
 ||logoshutter.com^
 ||lonelyflavor.com^
 ||longingtrees.com^
+||longloops.com^
 ||loosecase.com^
 ||looseloaf.com^
 ||lorenzourban.com^
@@ -7822,6 +7825,7 @@ omni.soundestlink.com$image
 ||metajaws.com^
 ||metalbold.com^
 ||metawelcome.com^
+||midnightmead.com^
 ||mightyspiders.com^
 ||millswell.com^
 ||mimosamajor.com^
@@ -7995,6 +7999,7 @@ omni.soundestlink.com$image
 ||pastoralroad.com^
 ||pawsnug.com^
 ||peacefullimit.com^
+||peakcreator.com^
 ||pearpouch.com^
 ||pedropanther.com^
 ||peeringhost.net^
