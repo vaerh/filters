@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dej6pFiwqPY8c4QspiGa3w
-! Version: 202605130341
+! Checksum: Z7IlsIJTWh4etvEPPsuPoA
+! Version: 202605140341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 May 2026 03:41 UTC
+! Last modified: 14 May 2026 03:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1708,6 +1708,19 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ##.a-buttons.green-but.a-clock
 ##div[style="width: 252px; height: 450px; position: fixed; right: 0px; top: 0px; overflow: hidden; z-index: 10000;"]
 !
+! = CSS-стили =================================================================
+! *** advblock/inline_css.txt ***
+! Собственные домены HDrezka
+ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] > [id$="er"]:nth-child(-n+3) {width:unset;}
+ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
+! Моносериальные домены HDrezka
+net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]) {margin-top:unset;}
+!
+ex-fs.net###content {margin-top:0;}
+stratege.ru###globalcontent {margin-top:0;padding-top:0;}
+stratege.ru##.above_body {margin-bottom:0;}
+www.kinopoisk.ru##body {overflow:auto;}
+!
 ! = Общие правила блокировки ==================================================
 ! *** advblock/general_block.txt ***
 &cp.host=*&cp.token=$third-party,xmlhttprequest
@@ -2139,7 +2152,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /tionline240x400.
 /tizer-$domain=~1ab.ru|~blogbaster.org|~cybersport.ru|~f1comp.ru|~metropolnemiga.by
 /tizer.$domain=~tizer.io
-/tizer/*$domain=~asau.ru
+/tizer/*$domain=~asau.ru|~vkusvill.ru
 /tizer2.
 /tizer2/*
 /tizer_$domain=~1ab.ru|~designchat.com|~mos.ru|~mosmetod.ru|~neyvabank.ru|~pro-obraz.ru|~rosmediy.ru|~stopgame.ru
@@ -4123,6 +4136,7 @@ _tizers.
 ||a-akamaihd.com^$third-party
 ||a.aviabay.ru^$third-party
 ||a.mayakinfo.ru^$third-party
+||a.rutube.ru^
 ||a0resmb.com^$third-party
 ||a6lxbeui.ru^$third-party
 ||a7i02p23sj.xyz^$third-party
@@ -17427,6 +17441,7 @@ penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 rozetka.com.ua#?#[rzadvertisingview]:-abp-has(> div > span > rz-advertising-info-btn)
 rozetka.com.ua#?#[rzscrollersliderbar] > div > .slide:-abp-has(> rz-product-tile [aria-label*=" про рекламу"])
+ficbook.net##[src*=".net/banners/"]
 radiokot.ru##[src*="//radiokot.ru/adv/"]
 itweek.ru##[src*="/ad/banners/"]
 fixygen.ua##[src*="/assets/banner_"]
@@ -17488,6 +17503,7 @@ root-nation.com##[swg-standard-button="contribution"]
 cdmail.ru,izcity.com##[title*="быстрый браузер!"] > img
 zx-pk.com##[title="Yandex Direct"]
 ozon.ru##[title="Реклама"]
+vkusvill.ru##[title="Яндекс Дзен"]
 kod.ru##[title="Яндекс.Дзен"]
 ruboard.website##[vid_vpaut_pl]
 lost-abc.ru##[width="630"][height="90"]
@@ -23427,6 +23443,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||vk.com/js/al/aes_light.js$script,domain=~vk.com
 ||vkaznu.ru^*.php$script
 ||vkurske.com/banners/
+||vkusvill.ru/upload/ext_assets/mail_ru_top_
+||vkusvill.ru/upload/ext_assets/targetads.js
 ||vl.ru/eda/*/widget/$script,domain=drom.ru
 ||vl.ru/widgets/drom.js$script,domain=forums.drom.ru
 ||vlab.su/banner/
@@ -23669,8 +23687,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/news-site/*/*/$script
-||static.dzeninfra.ru/s3/zen-apps/video-feed/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/dzen-mobile/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/mobile/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
