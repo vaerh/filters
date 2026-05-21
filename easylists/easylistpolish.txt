@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3t3nHJtK0Rhwf7oT93uBPg
-! Version: 202605200351
+! Checksum: 64qZh/LATyT/+BO+BesONA
+! Version: 202605210402
 ! Title: EasyList Polish
-! Last modified: 20 May 2026 03:51 UTC
+! Last modified: 21 May 2026 04:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -551,6 +551,7 @@ files.librus.pl^*^r_
 ||oborniki.com.pl/wp-content/uploads/2021/03/LOK-768x1087.png
 ||oborniki.com.pl/wp-content/uploads/2021/03/LOK.png
 ||odkryjpomorze.pl^*^loga_prawa_
+||off-road.pl/wp-content/uploads/2025/05/jeep-academy-1.jpg
 ||ogloszeniarolnicze.com.pl^**^mkw-nowa.
 ||ok24.tv^*^06/lasvegan.
 ||partner.rankomat.pl^$domain=skionline.pl
@@ -1862,7 +1863,7 @@ burda.pl,glamour.pl,kobieta.pl,mamotoja.pl,mojpieknyogrod.pl,national-geographic
 zycieczestochowy.pl##.pers-item
 kuriergarwolinski.pl##.picture-spot
 zlotoryjska.pl##.pierwsze_pole_banerowe_w_panelu
-forbes.pl,meczyki.pl##.placeholder
+forbes.pl,meczyki.pl,ofeminin.pl##.placeholder
 ciekawostkihistoryczne.pl##.placeholderAds
 hdtv.com.pl,info112.pl,instalki.pl##.placeholderPlug
 rowerowa.pl##.placement

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ndWgTZHjZ3uJEid2e/oWfA
-! Version: 202605200351
+! Checksum: bXMVadnVGbhVsf6O8bBEAQ
+! Version: 202605210402
 ! Title: EasyList China
-! Last modified: 20 May 2026 03:51 UTC
+! Last modified: 21 May 2026 04:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1787,6 +1787,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||w2q5p09n8.com^
+||oj95rctd5.com^
+||apricot48.com^
 ||9613gwqee.com^
 ||pl7ncaj0b.com^
 ||invalidation93.com^
@@ -1795,6 +1798,10 @@ newduba.cn###jq_youxi
 ||wrdo8dl9bb.com^
 ||xlekg58lub.com^
 ||cancellation10.top^
+||i5rd6bukys.com^
+||lmd6dc1aq7.com^
+||4z48fqo12n.com^
+||ssyegkbu0g.com^
 ||3is34bpqs4.com^
 ||ecg21n9t8d.com^
 ||oa83fs5udz.com^
@@ -11154,6 +11161,7 @@ meijutt.*/js/pcjs/
 ||riskbird.com/riskbird-api/guest/unionGoods
 ||kuazhi.com/kuazhi_click.
 ||pc-util.gamersky.com^
+||kssms.com/click/play.
 !------------------------Specific element hiding rules------------------------!
 huaren.live##.pause-love
 jin10.com##.desktop-tip
