@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 64qZh/LATyT/+BO+BesONA
-! Version: 202605210402
+! Checksum: Zl8YDF0WDUpUOeWMbkoJBg
+! Version: 202605220402
 ! Title: EasyList Polish
-! Last modified: 21 May 2026 04:02 UTC
+! Last modified: 22 May 2026 04:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -551,6 +551,8 @@ files.librus.pl^*^r_
 ||oborniki.com.pl/wp-content/uploads/2021/03/LOK-768x1087.png
 ||oborniki.com.pl/wp-content/uploads/2021/03/LOK.png
 ||odkryjpomorze.pl^*^loga_prawa_
+||off-road.pl/wp-content/uploads/2025/05/01-3.jpg
+||off-road.pl/wp-content/uploads/2025/05/DORTP_TV_dacia_renault_outdoor_events-1.jpg
 ||off-road.pl/wp-content/uploads/2025/05/jeep-academy-1.jpg
 ||ogloszeniarolnicze.com.pl^**^mkw-nowa.
 ||ok24.tv^*^06/lasvegan.
