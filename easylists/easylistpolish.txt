@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Zl8YDF0WDUpUOeWMbkoJBg
-! Version: 202605220402
+! Checksum: 7Va0ejohDZfxGmMGR5h2Xw
+! Version: 202605230341
 ! Title: EasyList Polish
-! Last modified: 22 May 2026 04:02 UTC
+! Last modified: 23 May 2026 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -555,6 +555,8 @@ files.librus.pl^*^r_
 ||off-road.pl/wp-content/uploads/2025/05/DORTP_TV_dacia_renault_outdoor_events-1.jpg
 ||off-road.pl/wp-content/uploads/2025/05/jeep-academy-1.jpg
 ||ogloszeniarolnicze.com.pl^**^mkw-nowa.
+||ogrodinfo.pl/wp-content/uploads/2020/11/AnP_Banner_320x100_a.jpg
+||ogrodinfo.pl/wp-content/uploads/2020/11/komunikaty-sadownicze-320x100-1.gif
 ||ok24.tv^*^06/lasvegan.
 ||partner.rankomat.pl^$domain=skionline.pl
 ||pfcc.eu^*^automaty.
