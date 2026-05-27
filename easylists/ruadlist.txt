@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v+/SVgr0TmRNlcksFGi90w
-! Version: 202605260351
+! Checksum: mQNaldSZY45pGBZdOpkQdg
+! Version: 202605270402
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 May 2026 03:51 UTC
+! Last modified: 27 May 2026 04:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6496,6 +6496,7 @@ _tizers.
 ||guktuti.ru^$third-party
 ||gumyfui.com^$third-party
 ||gus.host/coins.js
+||gusfioner.live^$third-party
 ||gvahh.top^$third-party
 ||gvfror.com^$third-party
 ||gwxpv.com^$third-party
@@ -12936,6 +12937,7 @@ stolica.ru###vst_mvideo
 multiurok.ru###vue-bubble
 zh24.com###warning
 browserss.ru###wb_Image1044
+minfin.com.ua###wgt_view
 solncewonews.ru###widget_ads
 soccer365.com.ua,soccer365.ru###widget_bk
 dachnye-sovety.ru###widgetized-area
@@ -13970,7 +13972,7 @@ zombie-film.live##.branding-fk
 megalyrics.ru,newkaliningrad.ru,zanoza.kg##.branding-link
 ifin.kz##.branding-space
 gameru.net##.branding-spacer
-pogoda.tut.by##.branding-top
+ain.ua,pogoda.tut.by##.branding-top
 roem.ru##.branding-wrapper
 info.sibnet.ru##.branding-wrapper > a
 prophotos.ru##.branding:not(body)
@@ -17975,6 +17977,7 @@ mschistota.ru##a[href][target="_blank"] img
 nb.by##a[href][target="_blank"]:not([href^="/"]):not([href^="https://nb.by/"]) > img[width="100%"]
 kmory.ru##a[href][target="_blank"][onclick]
 agroone.info##a[href][target="_blank"][rel*="noopener"] > img
+thepublic.info##a[href][target="_blank"][rel="noopener nofollow"] > img
 dentalmagazine.ru##a[href][target="_blank"][rel="noopener noreferrer"]
 traktorist.ua##a[href][target="_blank"][style*="/media/uploads/"]
 smapps.org##a[href][target="_blank"][style*="smapps.org/lead/banner/"]
@@ -19090,6 +19093,7 @@ eanews.ru##div[class^="post-"] > section[class^="styled__Wrapper-sc-"]
 tsn24.ru##div[class^="post-banner"]
 pln-pskov.ru##div[class^="pr__news"][style="padding-right: 0 !important;"]
 soft.sibnet.ru##div[class^="programm_block-ad"]
+sovsport.ru##div[class^="promo-menu"]
 sportsdaily.ru##div[class^="promoMenu_giftButton_"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[class^="r"][style*="height:"]
 glavred.info,glavred.net##div[class^="r"][style^="height"][style*="margin:"]
@@ -19804,7 +19808,6 @@ jofo.ru##iframe[src^="http://creatagen.ru/"]
 smotretonline.ucoz.org##iframe[src^="http://kinohouse.ucoz.ru"]
 arminfo.info##iframe[src^="https://www.arminfo.info/"][src$=".html"]
 www.mp4upload.com##iframe[src^="https://www.mp4upload.com/"][src$=".html"]
-5.ua##iframe[srcdoc*="banner"]
 fastpic.org##iframe[srcdoc]
 forum.watch.ru##iframe[style="width: 100%; height: 60px;"]
 forum.watch.ru##iframe[style="width:100%; height:110px;"]
@@ -23816,9 +23819,11 @@ mail.ru##[href*="https://dzen.ru"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
-pikabu.ru#?#article:-abp-has(> .story__left > .story__pin)
+pikabu.ru#?#article:-abp-has(> .story__left .story__pin)
+pikabu.ru#?#article:-abp-has(> .story__left > div:not([class]):only-child)
 pikabu.ru#?#article:-abp-has(> .story__left > span:first-child)
 pikabu.ru#?#article:-abp-has(> .story__left > span:only-child)
+pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]
@@ -24439,6 +24444,7 @@ fontanka.ru,ngs.ru,ngs55.ru##[class*="pictureDayBlock_"] div[class*=" advMark_"]
 fontanka.ru,ngs.ru,ngs55.ru##[class*="pictureDayBlock_"] li > a[href*="/?erid="]
 fontanka.ru,ngs.ru,ngs55.ru#?#[class*="pictureDayBlock_"] li:-abp-has(> a[href*="/?erid="])
 fontanka.ru##[data-io-article-url] > [itemprop="articleBody"] ~ p[class]
+ru##[data-ns-portal] .gridContainer > div[class^="wrap-cp_"]:empty
 ru##[data-ns-portal] .gridContainer div[class^="benefitsBlock_"]
 ru##[data-ns-portal] .notify-messages-popups
 ru##[data-ns-portal] [class*="hasBranding"] div[class^="benefitsBlock_"]
@@ -25084,7 +25090,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="tlon-items-count:"]
+ya.ru##section[style*="sektlion-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner
