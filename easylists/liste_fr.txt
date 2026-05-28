@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AoC+F0WAuOWSe0Uc4LrqBA
-! Version: 202605270402
+! Checksum: 3ZfBFP0dp4ZDa+i7SBo0YA
+! Version: 202605280351
 ! Title: Liste FR
-! Last modified: 27 May 2026 04:02 UTC
+! Last modified: 28 May 2026 03:51 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -10987,6 +10987,7 @@ tomsguide.fr##.carousel-multi-css-side
 psychologies.com##.carrousel_partenaires
 emu-france.com##.cas_version_mobile_cache_grande_pub
 comptoir-hardware.com##.cat_bons_plans_du_comptoir
+carrefour.fr##.category-product-listing-page__advertising-container
 phonandroid.com##.category-publicite
 korben.info##.category-sponsor
 girlsgogames.fr##.categoryBanner
