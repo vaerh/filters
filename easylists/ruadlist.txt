@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WYcfyWcixxOcnZANdfiJKA
-! Version: 202605280351
+! Checksum: vhEgmq/MaxO67SZoFx2y9w
+! Version: 202605290403
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 May 2026 03:51 UTC
+! Last modified: 29 May 2026 04:03 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26959,7 +26959,6 @@ adblock.turtlecute.org###ad_ctd
 seolik.ru###alert_top_site
 tvvse.my1.ru###cont-i > span[style*="color:red"]
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru###container > center:nth-child(-n+3)
-fm-app.ru,tvapp.su,yootv.ru###content > div[style*="fixed"]
 satdx.club###darkenwrapper
 3dtuning.com###detected
 vuzopedia.ru###fab
@@ -27104,6 +27103,7 @@ forums.overclockers.ru##tr > td[nowrap="nowrap"][style^="color: red;"][style$="f
 ||under-prog.ru/wp-content/plugins/eazy-ad-unblocker/
 ||webwintop.ru/wp-content/plugins/$script
 ||yagramotniy.ru/templates/edv/js/_extra/
+||yootv.online/assets/js/player/counter.js
 !
 ! - Против "бесконечной загрузки страниц" -------------------------------------
 !#infiload.bookmark
