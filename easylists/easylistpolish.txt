@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hlruc4peBq+1xcI5L/vv8Q
-! Version: 202605290403
+! Checksum: gLklx+08CTcL9VdusAIcQg
+! Version: 202605300341
 ! Title: EasyList Polish
-! Last modified: 29 May 2026 04:03 UTC
+! Last modified: 30 May 2026 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -607,6 +607,7 @@ files.librus.pl^*^r_
 ||static2.lokalna24.pl/data/wysiwig/baner_%C5%81ICSO.jpg
 ||sterta.pl^$image,domain=olsztyn.com.pl
 ||stoczniowcy.pl^*^jds.
+||storage.opinieouczelniach.pl/source/1/LrWYQINVo6yZp7_VGaORaTgPMenkLDMR.png
 ||studentnews.pl/b.php$script,domain=avrupadaokuma.eu|bachelor.undergraduatestudy.eu|distancelearningstudy.eu|dlamaturzysty.info|dlaucznia.info|doctoralstudy.eu|dualstudies.eu|edubaza.pl|estudarnaeuropa.eu|estudiareneuropa.eu|etudiereneurope.eu|gramatyka-angielska.info|kierunki-studiow.info|kursy-zawodowe.kwalifikacjezawodowe.info|kursyjezykowe.biz|kursyonline.info|kursysemestralne.pl|master.postgraduatestudy.eu|mba-studies.eu|ochschulen.studiumineuropa.eu|organizacjestudenckie.pl|pracaikariera.pl|rektorzy.pl|studenckamarka.pl|studenckamoda.pl|studentka.pl|studentnews.eu|studentnews.pl|studiadoktoranckie.info|studiainzynierskie.info|studialicencjackie.info|studiamagisterskie.info|studiamba.info|studianiestacjonarne.info|studiaonline.info|studiastacjonarne.info|studiaweuropie.eu|studies-in-english.pl|studies-in-europe.eu|studies-in-poland.pl|studiumveurope.eu|szkolyjezykowe.info|tanulmanyokeuropaban.eu|universita.studiareineuropa.eu|wameryce.info|weuropie.info
 ||swidnik.pl^*^alior_swidnik_
 ||sychar.org^*^tolle-
@@ -3098,7 +3099,7 @@ iturek.net##img[src*="SBRUK"]
 iturek.net##img[src*="am-230"]
 kreskowki.tv##img[src*="assetcdn"]
 jagiellonia.net##img[src*="b4n3ry"]
-cypr24.eu,e-chelmno.pl,elblag24.pl,eskatt.pl,esopot.pl,eswinoujscie.pl,f1.dziel-pasje.pl,gazetabilgoraj.pl,gazetawawerska.pl,glokalna.pl,grudziadz365.pl,gwe24.pl,haloursynow.pl,infokatowice.pl,infokrakow24.pl,itvregion.pl,kaszuby24.pl,kolbuszowalokalnie.pl,kurierwilenski.lt,kwidzyn1.pl,legalnybukmacher.net.pl,lesko.info,lodr-bratoszewice.pl,magazynfakty.pl,medycznamarihuana.com,ndie.pl##img[src*="baner"]
+cypr24.eu,e-chelmno.pl,elblag24.pl,eskatt.pl,esopot.pl,eswinoujscie.pl,f1.dziel-pasje.pl,gazetabilgoraj.pl,gazetawawerska.pl,glokalna.pl,grudziadz365.pl,gwe24.pl,haloursynow.pl,infokatowice.pl,infokrakow24.pl,itvregion.pl,kaszuby24.pl,kolbuszowalokalnie.pl,kurierwilenski.lt,kwidzyn1.pl,legalnybukmacher.net.pl,lesko.info,lodr-bratoszewice.pl,magazynfakty.pl,medycznamarihuana.com,ndie.pl,opiekunkaradzi.pl##img[src*="baner"]
 gazetakolobrzeska.pl##img[src*="baner-"]
 gazeo.pl##img[src*="banerek"]
 eswinoujscie.pl##img[src*="banerr"]
