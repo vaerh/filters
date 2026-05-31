@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605300336
+! Version: 202605310418
 ! Title: EasyPrivacy
-! Last modified: 30 May 2026 03:36 UTC
+! Last modified: 31 May 2026 04:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b940b2b628e64b2f683058336a133fd384cef4fc
+! Commit: 92bdffb2aafcd067bbe4215801f5741a4384b15b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6718,6 +6718,7 @@ omni.soundestlink.com$image
 ||aliveachiever.com^
 ||allnewhost.com^
 ||alloutdubstep.com^
+||alloytitans.com^
 ||allsunflowers.com^
 ||allthelogs.com^
 ||alltypo.com^
@@ -6796,6 +6797,7 @@ omni.soundestlink.com$image
 ||basketballbelieve.com^
 ||baskettexture.com^
 ||bastingart.com^
+||battleburst.com^
 ||battlekite.com^
 ||bawdybalance.com^
 ||beamvolcano.com^
@@ -9928,6 +9930,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||682a5845.b-cdn.net^
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
+||a.cineflix.st^
 ||a.emea01.idio.episerver.net^
 ||a.getflowbox.com^
 ||a.hcaptcha.com^
@@ -11091,6 +11094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fst-ec.perimeterx.net^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
+||fubuki-umami.space/api/script.js
 ||fudge.ai/metrics?
 ||future-fie-assets.co.uk^
 ||future-price.co.uk^
@@ -15640,6 +15644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||messenger.com/ajax/bnzai?
 ||metacrawler.com/pingback
 ||metis.truecaller.com^
+||metrics-a.wbx2.com^
 ||metrics.audius.co^
 ||metrics.bangbros.com^
 ||metrics.camsoda.com^
@@ -16484,6 +16489,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trx3.famousfix.com^
 ||try.elevenlabs.io/pr/js
 ||ts.delfi.lt^
+||tsa.webex.com^
 ||tsmate.com/api/metrics
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?

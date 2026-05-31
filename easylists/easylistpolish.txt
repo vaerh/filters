@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gLklx+08CTcL9VdusAIcQg
-! Version: 202605300341
+! Checksum: f7Oi9FBz7loeXXE+gQQnRQ
+! Version: 202605310412
 ! Title: EasyList Polish
-! Last modified: 30 May 2026 03:41 UTC
+! Last modified: 31 May 2026 04:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -684,7 +684,7 @@ tuhiszpania.pl###b_searchboxInc
 edziecko.pl,gazeta.pl###banC1
 edziecko.pl,gazeta.pl###banC2
 edziecko.pl,gazeta.pl###banC99
-przeglad-sejnenski.pl###baner
+oprocentowanielokat.pl,przeglad-sejnenski.pl###baner
 dziennik.walbrzych.pl###baner-glowny
 genetyczne.pl###baner-gorny
 gry-online.pl###baner-outer
@@ -2919,7 +2919,7 @@ natemat.pl##div[class*="adslot"]
 golub-cgd.pl,goral24.pl,ibielsk.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,kuriergmin.pl,lipno-cli.pl,nowagazeta.pl,nowinynyskie.com.pl,nswiecie.pl,promoceny.pl##div[class*="adv"]
 ikampinos.pl##div[class*="adv--halfpage"]
 demotywatory.pl##div[class*="adv_"]
-deccoria.pl,halogorlice.info,kociewiak.pl##div[class*="advert"]
+deccoria.pl,halogorlice.info,kociewiak.pl,opoka.org.pl##div[class*="advert"]
 igryfino.pl,kronikatygodnia.pl##div[class*="advert-"]
 motofaktor.pl##div[class*="angwp"]
 gp24.pl,nowiny24.pl##div[class*="atomsAdsCellModel"]
