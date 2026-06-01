@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605310418
+! Version: 202606010440
 ! Title: EasyPrivacy
-! Last modified: 31 May 2026 04:18 UTC
+! Last modified: 01 Jun 2026 04:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 92bdffb2aafcd067bbe4215801f5741a4384b15b
+! Commit: 2a63b7987feb027c93c388b674400d523bdd09e8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3036,8 +3036,8 @@ _WebVitalsReporter_
 /rrweb.js
 /rrweb.min.js
 ! DNS checks
-/DNSCheck.js
-/DNSChecker.js
+/DNSCheck.js$domain=~github.com
+/DNSChecker.js$domain=~github.com
 ! hawkeye
 /hawk.js
 /hawkeye.js
@@ -10163,6 +10163,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.skyscanner.net^
 ||analytics.sleeknote.com^
 ||analytics.snidigital.com^
+||analytics.steast.io^
 ||analytics.strangeloopnetworks.com^
 ||analytics.superstructure.ai^
 ||analytics.supplyframe.com^
