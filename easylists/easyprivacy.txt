@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606010440
+! Version: 202606020439
 ! Title: EasyPrivacy
-! Last modified: 01 Jun 2026 04:40 UTC
+! Last modified: 02 Jun 2026 04:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2a63b7987feb027c93c388b674400d523bdd09e8
+! Commit: 012b24adfb7cd34e55c8758d68f0a249a85fa8af
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3908,6 +3908,7 @@ omni.soundestlink.com$image
 ||ugdturner.com^
 ||uidapi.com^
 ||uimarketpro.com^
+||umami.dev^
 ||uqd.io^
 ||usrpubtrk.com^
 ||ustat.info^
@@ -6830,6 +6831,7 @@ omni.soundestlink.com$image
 ||binspiredtees.com^
 ||biologylog.com^
 ||birthdaybelief.com^
+||biztoolsbrief.com^
 ||blackbelted.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
@@ -6847,6 +6849,7 @@ omni.soundestlink.com$image
 ||bluevinebooks.com^
 ||blushingbeast.com^
 ||blushingbread.com^
+||boardbumpers.com^
 ||boatcodeapp.com^
 ||boatpaper.com^
 ||boatsbuilding.com^
@@ -7360,7 +7363,6 @@ omni.soundestlink.com$image
 ||focusfitwear.com^
 ||folderplan.com^
 ||followborder.com^
-||fontserif.com^
 ||foodczar.com^
 ||foodfunfestivals.com^
 ||forecasttiger.com^
@@ -12086,6 +12088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rtxpx-a.akamaihd.net^
 ||rudder-server-prd.arena.im/v1/track
 ||rudder-tracking.rudderstack.com^
+||rudderstack.com/v1/track
 ||rum-collector.leaderint.workers.dev^
 ||rum.azion.com^
 ||rum.azioncdn.net^
@@ -14640,6 +14643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.academy.com^
 ||analytics.ahrefs.dev^
 ||analytics.archive.org^
+||analytics.atom.com^
 ||analytics.bitchute.com^
 ||analytics.brave.com^
 ||analytics.chase.com^
@@ -17114,6 +17118,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||acustomizedgift.com^$redirect=noopjs,script
 ||fishingtoolsbox.com^$redirect=noopjs,script
 ||fjordsand.com^$redirect=noopjs,script
+||fontserif.com^$redirect=noopjs,script
 ||glasscoyote.com^$redirect=noopjs,script
 ||goddesslamps.com^$redirect=noopjs,script
 ||inventorycache.com^$redirect=noopjs,script
