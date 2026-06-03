@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606020439
+! Version: 202606030429
 ! Title: EasyPrivacy
-! Last modified: 02 Jun 2026 04:39 UTC
+! Last modified: 03 Jun 2026 04:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 012b24adfb7cd34e55c8758d68f0a249a85fa8af
+! Commit: f96130e4a3b516908d4ea82019e910d0bfa8b02f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -26,6 +26,7 @@
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
+&sst.gcsub=
 &t=pageview&
 -adobe-analytics/
 -adobeDatalayer_bridge.js
@@ -4463,6 +4464,7 @@ omni.soundestlink.com$image
 ||conductrics.com^$third-party
 ||conductrics.net^$third-party
 ||conduze.com^$third-party
+||confidence.dev^$third-party
 ||config.parsely.com^$third-party
 ||confirmational.com^$third-party
 ||connectif.cloud^$third-party
@@ -6992,10 +6994,12 @@ omni.soundestlink.com$image
 ||ciderfeast.com^
 ||cinemabonus.com^
 ||circlelevel.com^
+||citydeal.net^
 ||clammychicken.com^
 ||clarifyverse.com^
 ||classicnotebook.com^
 ||cleanhaircut.com^
+||clearclips.com^
 ||climbingright.com^
 ||cloisteredcurve.com^
 ||cloudchickens.com^
@@ -8073,6 +8077,7 @@ omni.soundestlink.com$image
 ||rangergustav.com^
 ||raresummer.com^
 ||razzweb.com^
+||reachhumans.com^
 ||reactjspdf.com^
 ||readingguilt.com^
 ||readymoon.com^
@@ -10954,6 +10959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
 ||events-endpoint.pointandplace.com^
+||events-ingestion-helpcenter.services.gorgias.help^
 ||events-ocu.zipify.com^
 ||events-proxy.mintlify.com
 ||events.air.tv^

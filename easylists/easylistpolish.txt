@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yGxmGKlolgRvtD7tdYapqw
-! Version: 202606020431
+! Checksum: qsRfd92oCflHlesG2PHcig
+! Version: 202606030441
 ! Title: EasyList Polish
-! Last modified: 02 Jun 2026 04:31 UTC
+! Last modified: 03 Jun 2026 04:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -561,6 +561,7 @@ files.librus.pl^*^r_
 ||ok24.tv^*^06/lasvegan.
 ||okazjepodroznika.pl/wp-content/uploads/2019/06/okazje-podroznika-CR-728_100.gif
 ||olgasmile.com/wp-content/uploads/przepisy-vegemi.jpg.webp
+||ostrowczanie.info/wp-content/uploads/2020/08/ajenttt.jpg
 ||partner.rankomat.pl^$domain=skionline.pl
 ||pfcc.eu^*^automaty.
 ||pfcc.eu^*^choryzont.
@@ -2405,7 +2406,7 @@ linktopoland.com##a[href*="autoczescionline24.pl"]
 badaniaprenatalne.pl##a[href*="badamydzieci.pl"]
 badaniaprenatalne.pl##a[href*="badanienifty.pl"]
 e-kolo.pl,instalacjebudowlane.pl,jagiellonia.net,medycznamarihuana.pl##a[href*="baner"]
-forum-bron.pl,forum.pasja-informatyki.pl,fresh-market.pl,gastrona.pl,gramatyka-angielska.info,hokej.net,investmap.pl,jadarhobby.pl##a[href*="banner"]
+forum-bron.pl,forum.pasja-informatyki.pl,fresh-market.pl,gastrona.pl,gramatyka-angielska.info,hokej.net,investmap.pl,jadarhobby.pl,www.ostrodanews.pl##a[href*="banner"]
 gastrona.pl##a[href*="bbelements"]
 gloswroclawia.pl##a[href*="brand.ceo"]
 goral24.pl##a[href*="bsczarnydunajec"]
