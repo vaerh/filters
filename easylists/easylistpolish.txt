@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qsRfd92oCflHlesG2PHcig
-! Version: 202606030441
+! Checksum: vVOPps2EXNXIrWVLZiZHow
+! Version: 202606040432
 ! Title: EasyList Polish
-! Last modified: 03 Jun 2026 04:41 UTC
+! Last modified: 04 Jun 2026 04:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -246,6 +246,7 @@ files.librus.pl^*^r_
 ||cdn.cmc-gallery.pl/static/files/gallery/156/aee94-Omega.JPG
 ||cdn.cmc-gallery.pl/static/files/gallery/156/e040a-G--ucho--azy-BN_prasa..jpg
 ||cdn.cmc-gallery.pl/static/files/gallery/564/80060-Oferta---wi--teczna--2-.png
+||cdn.gallery/pic/assets/uploads/files/18519__ototorun-1000x300-6-2.jpg
 ||cdn.gallery^*^files^$image,domain=szczecinek.com
 ||cdn.sterta.pl^$domain=rusz.pl
 ||ceneo.pl^$image,domain=7dni.pila.pl|archigame.pl|exerim.pl|grojec24.net|komputery-pc.info|nowinylokalne.pl|pch24.info|pgo24.pl|pmi24.info|tromil.pl|warownie.pl
@@ -3098,6 +3099,7 @@ gazetaostrowska.pl,kolbuszowalokalnie.pl,konin24.info,kurierostrowski.pl,lesko.i
 cypr24.eu,evertiq.pl,fors.pl,jazdaprawna.pl,juvepoland.com##img[src*="Banner"]
 iturek.net##img[src*="Dygas"]
 iturek.net##img[src*="SBRUK"]
+oswiecimonline.pl##img[src*="ads"]
 iturek.net##img[src*="am-230"]
 kreskowki.tv##img[src*="assetcdn"]
 jagiellonia.net##img[src*="b4n3ry"]
