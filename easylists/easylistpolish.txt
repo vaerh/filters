@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x8hH0zBg3uJg/N7Lb06+PQ
-! Version: 202606160451
+! Checksum: TpVjgwhTVGb1ViBUgIji3g
+! Version: 202606170431
 ! Title: EasyList Polish
-! Last modified: 16 Jun 2026 04:51 UTC
+! Last modified: 17 Jun 2026 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1146,6 +1146,7 @@ egospodarka.pl##.ad750
 pomponik.pl##.adStandardTopContainerWraper
 pomponik.pl##.adWraper
 gazeta.pl##.adWrapper
+planetagracza.pl##.ad__in
 nowiny.pl##.ad_async_placeholder
 rrs24.net##.ad_img_baner_glowny
 radiofest.pl##.ad_in
@@ -3110,7 +3111,7 @@ label-magazine.com##img[class*="banner"]
 gpd24.pl##img[id*="billboard"]
 pwm.org.pl##img[onload^="countAdView"]
 lesko.info##img[src*="BANER"]
-gazetaostrowska.pl,kolbuszowalokalnie.pl,konin24.info,kurierostrowski.pl,lesko.info,pielegniarki.info.pl##img[src*="Baner"]
+gazetaostrowska.pl,kolbuszowalokalnie.pl,konin24.info,kurierostrowski.pl,lesko.info,pielegniarki.info.pl,piotrkowski24.pl##img[src*="Baner"]
 cypr24.eu,evertiq.pl,fors.pl,jazdaprawna.pl,juvepoland.com##img[src*="Banner"]
 iturek.net##img[src*="Dygas"]
 iturek.net##img[src*="SBRUK"]
