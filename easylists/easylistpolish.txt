@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: COIxCOTbb6o6pvPdq2na8w
-! Version: 202606200401
+! Checksum: 2TqvdDCnIdPEv4rad0EJaw
+! Version: 202606210442
 ! Title: EasyList Polish
-! Last modified: 20 Jun 2026 04:01 UTC
+! Last modified: 21 Jun 2026 04:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -582,6 +582,7 @@ files.librus.pl^*^r_
 ||pfcc.eu^*^goldrop.
 ||pieniny.net.pl/files/prawa-kolumna.jpg
 ||plonsk24.pl^*^img_72^
+||pod24.info/images/2024/04/02/pomoc_drogowax.jpg
 ||podhale24.pl/uploads/r^
 ||poland.us^*^katalog^
 ||polonia-peterborough.uk^*^studio-fotograficzne-
@@ -2943,7 +2944,7 @@ igryfino.pl,kronikatygodnia.pl##div[class*="advert-"]
 motofaktor.pl##div[class*="angwp"]
 gp24.pl,nowiny24.pl##div[class*="atomsAdsCellModel"]
 gp24.pl##div[class*="atomsPromotionsBanner"]
-grafoteka.pl,independenttrader.pl##div[class*="baner"]
+grafoteka.pl,independenttrader.pl,plusliga.pl##div[class*="baner"]
 gpd24.pl,inwestycje-rzeszow.pl,irenakuczynska.pl,itreseller.pl,krs-pobierz.pl,kwejk.pl,lubiehrubie.pl,mikrokontroler.pl,nbi.com.pl##div[class*="banner"]
 e-kolo.pl##div[class*="bg-light mt-3 mb-3 p-2"]
 gamestough.com##div[class*="bnr"]

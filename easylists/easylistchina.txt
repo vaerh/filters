@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H0HBdV4gdbf8NwyBXdWH2w
-! Version: 202606200401
+! Checksum: RdRTC7P3D28eUeOn3DlkXw
+! Version: 202606210442
 ! Title: EasyList China
-! Last modified: 20 Jun 2026 04:01 UTC
+! Last modified: 21 Jun 2026 04:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1779,12 +1779,27 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||roywc0iql.com^
+||s002o2hkg.com^
+||fraction05.com^
+||elwebmx21.com^
+||yqgtuqf.icu^
+||vwpgnvwgywbrfo.com^
+||8cj70f905.com^
+||jba33y5xx.com^
 ||dividend56.top^
 ||zkhjsta.beauty^
 ||h702886htm.com^
 ||iv6xaoopvq.com^
 ||pttoblakstpjti.com^
 ||qbyngdjq8g.com^
+||8zqpw2lj8n.com^
+||y6p7022ep4.com^
+||7magjd84rd.com^
+||ajazaci.icu^
+||px017w0r62.com^
+||vsr4jyjpzb.com^
+||soob00avn4.com^
 ||1cimslrk3.com^
 ||gie0izinx.com^
 ||quotient75.com^
@@ -11471,6 +11486,7 @@ meijutt.*/js/pcjs/
 ||nbpicture.xyz^$domain=ltd.ua
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
+||xwcm.net/caches/ahm.
 !------------------------Specific element hiding rules------------------------!
 huaren.live##.pause-love
 jucha.com##.money_item
