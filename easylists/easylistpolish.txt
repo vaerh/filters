@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JRbVYykHFW6aOCB6NS2oyg
-! Version: 202606250351
+! Checksum: FO4/ZuZh4guZv94U4zTcXA
+! Version: 202606260342
 ! Title: EasyList Polish
-! Last modified: 25 Jun 2026 03:51 UTC
+! Last modified: 26 Jun 2026 03:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1483,6 +1483,7 @@ wlodawa.net##.col-sm-4
 43bis.media.pl##.column-left-advertising a:not([href^="http://www.43bis.media.pl"])
 43bis.media.pl##.column-right-advertising a:not([href^="http://www.43bis.media.pl"])
 radioccm.pl##.com_reklamy
+podlasianin.com.pl##.commercial
 rp.pl##.commercial--break
 twojstyl.pl##.commercial--placeholder
 nportal.no##.commercial-top
@@ -3120,7 +3121,7 @@ label-magazine.com##img[class*="banner"]
 gpd24.pl##img[id*="billboard"]
 pwm.org.pl##img[onload^="countAdView"]
 lesko.info,podhaleregion.pl##img[src*="BANER"]
-gazetaostrowska.pl,kolbuszowalokalnie.pl,konin24.info,kurierostrowski.pl,lesko.info,pielegniarki.info.pl,piotrkowski24.pl##img[src*="Baner"]
+gazetaostrowska.pl,kolbuszowalokalnie.pl,konin24.info,kurierostrowski.pl,lesko.info,pielegniarki.info.pl,piotrkowski24.pl,podkarpackahistoria.pl##img[src*="Baner"]
 cypr24.eu,evertiq.pl,fors.pl,jazdaprawna.pl,juvepoland.com##img[src*="Banner"]
 iturek.net##img[src*="Dygas"]
 iturek.net##img[src*="SBRUK"]
