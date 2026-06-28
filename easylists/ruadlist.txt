@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y7P4K67yFqUNNLtKbyWQWg
-! Version: 202606270351
+! Checksum: Ie9DRUnoVpb3QtDjgbSPAg
+! Version: 202606280411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Jun 2026 03:51 UTC
+! Last modified: 28 Jun 2026 04:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4246,6 +4246,7 @@ _tizers.
 ||adplay.ru^$third-party
 ||adplus.io^$third-party
 ||adpool.bet^$third-party
+||adport.net^$third-party
 ||adpremium.ru^$third-party
 ||adprofits.ru^$third-party
 ||adradle.life^$third-party
@@ -16813,6 +16814,7 @@ alcogolizm.com,jlady.ru,parazitovnetu.ru,spinazdorov.ru##.vex
 kino-history.net,velikolepnyivek.com##.viboom-overroll
 xcadr.online##.video-ad
 youtube.com##.video-annotations .annotation-type-text
+livejournal.com##.video-autoplay-adv
 dobre.stb.ua##.video-banner
 povarenok.ru##.video-bl
 povarenok.ru##.video-bl ~ .specproject-widgets
@@ -21903,7 +21905,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||image.jimcdn.com^$image,domain=optimistt.ru
 ||image2you.ru^$domain=strelec.ucoz.ru
 ||imedica.by/delivery/
-||img-fotki.yandex.ru/get/*_orig|$image,domain=masterok.livejournal.com
 ||img.*.ru/js/jquery.suSlider.js$script
 ||img.bankoboev.ru^
 ||img.playground.ru/moevideo_*.html
@@ -25070,6 +25071,7 @@ sports.ru##.write-post__placeholder:empty
 @@||r.sprts.ru/recommender/|$xmlhttprequest,domain=www.sports.ru
 sports.ru#?#[analytic-id="facts"]:not(:-abp-has(*))
 sports.ru##[bonus-sum]
+sports.ru##[class*="bookmaker-ratings"]
 cyber.sports.ru##[class*="okko"]
 sports.ru##[class*="parimatch"]
 sports.ru#?#[class]:-abp-has(> .aside-news-list__advert ~ a[href^="https://sprts.cc/"])
@@ -27164,6 +27166,7 @@ spletnik.ru##.z-adblock-message
 @@||ddnk.advertur.ru/*/loader.js|$script
 @@||webwintop.ru/wp-content/plugins/contact-form-7/includes/js/index.js|$script,domain=webwintop.ru
 @@||webwintop.ru/wp-content/plugins/copy-the-code/assets/js/copy-the-code.js|$script,domain=webwintop.ru
+magnit.ru##[class*="unit-yaslot-error-popup"]
 tvigle.ru##[class^="styles_removeAd"]
 pikabu.ru##[data-role="adb-warning"]
 channels247.net,goool7.ws,sport7.biz,sportbarchik88.com,sporting77.com#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv > img[src$="/adblock.png"])
