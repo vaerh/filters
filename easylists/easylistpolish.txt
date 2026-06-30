@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I0R3RtkcZ90A/U4mEQ5Rnw
-! Version: 202606290431
+! Checksum: EqIn4I0rTP4/833BWyTrWQ
+! Version: 202606300352
 ! Title: EasyList Polish
-! Last modified: 29 Jun 2026 04:31 UTC
+! Last modified: 30 Jun 2026 03:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -589,6 +589,8 @@ src="https://podhaleregion.pl/wp-content/uploads/2025/01/BANER-3-PODHALE-REGION-
 ||podhaleregion.pl/wp-content/uploads/2025/05/termyszaflary_slajder_3grafiki.gif
 ||podhaleregion.pl/wp-content/uploads/2026/01/podhale_region_restauracja_750x200-1.jpg
 ||podlasie24.pl/media/presentation/2025/10/mpk_2_pop.gif
+||podlasie24.pl/media/presentation/2025/7/spoleczniepozytywni-980x250-v2.jpg
+||podlasie24.pl/media/presentation/2026/1/980x250px.jpg
 ||podlasie24.pl/media/presentation/2026/1/stru-gal1.jpg
 ||podlasie24.pl/media/presentation/2026/1/stru-gal2.jpg
 ||podlasie24.pl/media/presentation/2026/1/Strus-reklama-na-portal-Podlasie-24.jpg
