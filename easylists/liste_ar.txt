@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KkTiEYYGjXLGSI1GtbF4/w
-! Version: 202606300352
+! Checksum: HMkloc1mdIXotIdD+iSn/w
+! Version: 202607010411
 ! Title: Liste AR
-! Last modified: 30 Jun 2026 03:52 UTC
+! Last modified: 01 Jul 2026 04:11 UTC
 ! Expires: 1 days (fréquence des mises à jour automatiques)
 ! Homepage: https://code.google.com/p/liste-ar-adblock/
 !
@@ -317,6 +317,7 @@ _New_Ads.
 ##.dfp_ad_top_ldb1_mobile
 ##.dfp_ad_top_ldb1_tablet
 ##.e3lan-code
+##.e3lan-header_after
 ##.e3lan300_600-widget
 ##.fbAdsCont
 ##.fixed-ads-left
@@ -1352,6 +1353,7 @@ hawaaworld.com###vacuumcleaners
 firedrive.com###ve_box
 europages.ma###vipBox
 jeddahbikers.com###x-728
+shootalive.com###ys-store-sticky
 sayidaty.net##.Ads
 alwatannews.net##.Adv
 oleeh.com##.Advinner
