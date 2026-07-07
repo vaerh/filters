@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607060347
+! Version: 202607070340
 ! Title: EasyPrivacy
-! Last modified: 06 Jul 2026 03:47 UTC
+! Last modified: 07 Jul 2026 03:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 47535a4b405515693c4633e921c8bda32f8d9cd9
+! Commit: d78d5fa08670b314fc521a466f514501e03f8371
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6981,6 +6981,7 @@ omni.soundestlink.com$image
 ||chaosmonitor.com^
 ||chargecracker.com^
 ||charmingplate.com^
+||chemistrycore.com^
 ||cherriescare.com^
 ||chessbranch.com^
 ||chesscolor.com^
@@ -7147,6 +7148,7 @@ omni.soundestlink.com$image
 ||debonairdust.com^
 ||debonairtree.com^
 ||decidedrum.com^
+||decisionhut.com^
 ||decisivebase.com^
 ||decisivedrawer.com^
 ||decklibrary.com^
