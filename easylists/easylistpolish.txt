@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3pKQ00+RX+NMb1vseM64cg
-! Version: 202607080311
+! Checksum: I+e1usEm3zhkoDzhoWLsaA
+! Version: 202607090341
 ! Title: EasyList Polish
-! Last modified: 08 Jul 2026 03:11 UTC
+! Last modified: 09 Jul 2026 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2441,6 +2441,7 @@ druk.info.pl##a[href*="ad.ipolska.pl"]
 elektroda.pl##a[href*="ads="]
 bbfan.pl,e-sochaczew.pl##a[href*="adsredirect"]
 koscian.net##a[href*="adv"]
+polska-zbrojna.pl##a[href*="advert"]
 forum.optymalizacja.com##a[href*="advertisement"]
 milanos.pl##a[href*="asset"]
 kiep.pl##a[href*="assetcdn"]
@@ -2963,7 +2964,7 @@ natemat.pl##div[class*="adslot"]
 golub-cgd.pl,goral24.pl,ibielsk.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,kuriergmin.pl,lipno-cli.pl,nowagazeta.pl,nowinynyskie.com.pl,nswiecie.pl,promoceny.pl##div[class*="adv"]
 ikampinos.pl##div[class*="adv--halfpage"]
 demotywatory.pl##div[class*="adv_"]
-deccoria.pl,halogorlice.info,kociewiak.pl,opoka.org.pl##div[class*="advert"]
+deccoria.pl,halogorlice.info,kociewiak.pl,opoka.org.pl,polska-zbrojna.pl##div[class*="advert"]
 igryfino.pl,kronikatygodnia.pl##div[class*="advert-"]
 motofaktor.pl##div[class*="angwp"]
 gp24.pl,nowiny24.pl##div[class*="atomsAdsCellModel"]
