@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607110244
+! Version: 202607120324
 ! Title: EasyPrivacy
-! Last modified: 11 Jul 2026 02:44 UTC
+! Last modified: 12 Jul 2026 03:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ecf0a27edfa9929cfcc250d441f89ff7e13a2d06
+! Commit: 2166e57ae1fdd06e9394debcc4eb2ee49ed96b8a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8181,6 +8181,7 @@ omni.soundestlink.com$image
 ||roaddynamics.com^
 ||roamhousing.com^
 ||robotgarages.com^
+||robotrefinery.com^
 ||robotsrefinery.com^
 ||rockagainst.com^
 ||rockstarwriter.com^
@@ -17297,6 +17298,12 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
 ! https://github.com/uBlockOrigin/uAssets/issues/31330
 ||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
+! https://github.com/uBlockOrigin/uAssets/issues/33072
+x.com##+js(set, __INITIAL_STATE__.featureSwitch.defaultConfig.rweb_home_jot_context_enabled.value, false)
+x.com##+js(set, __INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_context_enabled.value, false)
+! #if env_firefox
+||abs.twimg.com/responsive-web/client-web/main.$script,replace=/t\.isTrue\("rweb_home_jot_context_enabled"\)/false/
+! #endif
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt
