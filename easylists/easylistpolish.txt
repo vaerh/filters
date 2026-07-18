@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1VxFroHoHRNhYhnDJLkHRw
-! Version: 202607170302
+! Checksum: bD7KZIIP9mnKL/ZgmA+QRw
+! Version: 202607180241
 ! Title: EasyList Polish
-! Last modified: 17 Jul 2026 03:02 UTC
+! Last modified: 18 Jul 2026 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2441,6 +2441,7 @@ dsi.net.pl##a[href*="/banners/click/"]
 emecze.pl##a[href*="/r/"]
 kurierzamojski.pl##a[href*="/redirect/"]
 btcpolska.com##a[href*="?utm_campaign=btcpolska&"]
+polski.fm##a[href*="Banner"]
 druk.info.pl##a[href*="ad.ipolska.pl"]
 elektroda.pl##a[href*="ads="]
 bbfan.pl,e-sochaczew.pl##a[href*="adsredirect"]

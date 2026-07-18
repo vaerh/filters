@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607170311
+! Version: 202607180231
 ! Title: EasyPrivacy
-! Last modified: 17 Jul 2026 03:11 UTC
+! Last modified: 18 Jul 2026 02:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 46cbc4ac7bc4edb4ab330ee222df1cb43b2744e1
+! Commit: 8d537fbc1ae4de3e47d6292e92d8ac3c05dd7119
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -376,6 +376,7 @@
 /api/reqAnalytic/*
 /api/sentry/tunnel$xmlhttprequest
 /api/stat?
+/api/stn/audience|$xmlhttprequest
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker
@@ -13414,6 +13415,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||beagle.prod.tda.link^
 ||blacktri-a.akamaihd.net^
+||c.uniten.io^
 ||cdn.c-i.as^$script,third-party
 ||cesar-it.de/collect/
 ||cgicounter.onlinehome.de^
@@ -16161,6 +16163,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
+||s-cdn.anthropic.com/s.js
 ||s.gofile.io^
 ||s.infogram.com^
 ||s.joinhoney.com/evs
@@ -54954,6 +54957,7 @@ x.com##+js(set, __INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_contex
 ||namnak.com/ga.js
 ! Polish
 |http://x.o2.pl^
+||ads.tvp.pl^
 ||analytics.gazeta.pl^
 ||app.mediaexpert.pl/spark-data/
 ||collect.state.centrum24.pl^
