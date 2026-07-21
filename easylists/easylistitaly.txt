@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PtiO+OuSugzzWUz1XUuTrA
-! Version: 202607200322
+! Checksum: ZvZCg8m9VW2p3NCewCvRlg
+! Version: 202607210303
 ! Title: EasyList Italy
-! Last modified: 20 Jul 2026 03:22 UTC
+! Last modified: 21 Jul 2026 03:03 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -4139,6 +4139,7 @@ investire.biz#?#.container-fluid.py-3.bg-white-color.pl-5.pr-5:has(.text-black.w
 lalaziosiamonoi.it#?#.testo > div:has(b:has-text(PARTNERS COMMERCIALI))
 laleggepertutti.it#?#.cl-amp-important-information:has(div:has-text(Annuncio pubblicitario))
 laleggepertutti.it#?#.custom-html:has(div:has-text(Annuncio pubblicitario))
+redcare.it##li[data-qa-id="result-list-entry"]:has(a[href^="https://api.sae.systems/"])
 logisticanews.it#?#.td_block_wrap:has(a:has-text(Contenuti sponsorizzati))
 lospiffero.com#?#.article-blog-default:has(span:has-text(CONTENUTO SPONSORIZZATO))
 mediamarkt.ch,mediaworld.it#?#li[data-index-number]:has([data-test="mms-product-card"]:has-text(Sponsorizzati))

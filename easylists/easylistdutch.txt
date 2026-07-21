@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BdlBd80eTFLPddagEaeCqg
-! Version: 202607200322
+! Checksum: /bvvikd4IkPa/HeFYEwpzQ
+! Version: 202607210303
 ! Title: EasyList Dutch
-! Last modified: 20 Jul 2026 03:22 UTC
+! Last modified: 21 Jul 2026 03:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1518,6 +1518,7 @@ delhaize.be#?#.product-item:has-text(Gesponsord)
 androidplanet.nl##div[data-name="post"]:has(div[data-name="sponsor-logo"])
 krefel.be#?#div[class^="Flex-styled__StyledFlex-"]:has(h3:has-text(Gesponsorde producten))
 bol.com##li.js_item_root:has(.dsa__list-padding)
+farmaline.be##li[data-qa-id="result-list-entry"]:has(a[href^="https://api.sae.systems/"])
 marktplaats.nl#?#.hz-Listing--list-item:has-text(Topadvertentie)
 ! Advanced element hiding rules for Adblock Plus
 feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollow"]):not(a[href^="https://feijenoordnieuws.nl/"])
