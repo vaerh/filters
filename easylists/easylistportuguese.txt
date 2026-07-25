@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uP4rw+NeR3QY/OW+d3uyZA
-! Version: 202607240301
+! Checksum: hKVGPi65VEvmYTkl/z1Ndw
+! Version: 202607250302
 ! Title: EasyList Portuguese
-! Last modified: 24 Jul 2026 03:01 UTC
+! Last modified: 25 Jul 2026 03:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -546,6 +546,7 @@ estudokids.com.br###banner-rodape
 bnews.com.br###banner-super3
 estudokids.com.br###banner-topo
 acheisudoeste.com.br###bannerflutuante
+brasildefato.com.br###bdf-ad-wrapper
 delas.pt,motor24.pt,n-tv.pt,voltaaomundo.pt###billboard
 vidadesuporte.com.br###block-10
 br.lexlatin.com###block-banneranimado
