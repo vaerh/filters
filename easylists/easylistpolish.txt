@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q6qQxR0pv/lWffy4csGZzQ
-! Version: 202608010322
+! Checksum: PDlBL4WShFw4p+SGfab+5w
+! Version: 202608020311
 ! Title: EasyList Polish
-! Last modified: 01 Aug 2026 03:22 UTC
+! Last modified: 02 Aug 2026 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2957,7 +2957,7 @@ pultusk.news##div[class$="-banner"]
 nowywyszkowiak.pl##div[class$="_baner"]
 ckm.pl##div[class$="advert"]
 onet.pl##div[class*="AdSlotPlaceholder"]
-kurierlubelski.pl##div[class*="Ads"]
+kurierlubelski.pl,poranny.pl##div[class*="Ads"]
 gazetawroclawska.pl,i.pl,moto.pl,plotek.pl,pomorska.pl##div[class*="Banner"]
 onet.pl##div[class*="EmbeddedApplication_moneteasy_"] > div
 kurierlubelski.pl##div[class*="Promotions"]
