@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608020306
+! Version: 202608030313
 ! Title: EasyPrivacy
-! Last modified: 02 Aug 2026 03:06 UTC
+! Last modified: 03 Aug 2026 03:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0147b051d42a6f6c55f2078da292fc12a3c447ff
+! Commit: b943631f50316f076619b1c2a945085dbce9dd7f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems

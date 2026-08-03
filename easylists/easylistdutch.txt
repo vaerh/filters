@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lhVXt4WmY/PGRB2gvUyPMg
-! Version: 202608020311
+! Checksum: n8iv4WzxJ7bdhXYGXAtTmw
+! Version: 202608030322
 ! Title: EasyList Dutch
-! Last modified: 02 Aug 2026 03:11 UTC
+! Last modified: 03 Aug 2026 03:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1353,6 +1353,7 @@ bright.nl##[class^="Ad_ad_"]
 at5.nl##[class^="Advertisement_"]
 sporza.be##[class^="_adBanner_"]
 androidplanet.nl##[data-name="featured-header"]
+mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 9292.nl##[data-testid^="gpt-ad"]
 indeleiderstrui.nl##[data-ub-carousel]
 delhaize.be##[id*="sponsored_products"]
