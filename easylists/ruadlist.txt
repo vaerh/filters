@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZahlaQGW1evcmhLRMID8oA
-! Version: 202608110151
+! Checksum: kE7teMjpIZYiyFlV1dVc/A
+! Version: 202608120212
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Aug 2026 01:51 UTC
+! Last modified: 12 Aug 2026 02:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11907,7 +11907,7 @@ prestige-gaming.ru###back_brd
 westudents.com.ua###ban > #lin
 westudents.com.ua###ban noindex
 meteonova.ru###ban_500
-cripo.com.ua,fergananews.com,infobank.by,link.ac,liveangarsk.ru,lm-games.com,ping-admin.ru,premiership.ru,qupier.org,readbookz.com,redheadsound.studio,urod.ru,voxpopuli.kz,xtreme.ws###banner
+cripo.com.ua,fergananews.com,infobank.by,link.ac,liveangarsk.ru,lm-games.com,ping-admin.ru,premiership.ru,qupier.org,readbookz.com,urod.ru,voxpopuli.kz,xtreme.ws###banner
 9tv.co.il###banner-container
 gamexp.ru###banner-slider
 get-tune.net,mirmmo.ru,oneprogs.ru###banner-top
@@ -13343,6 +13343,7 @@ vringe.com##.all_news_partners
 liveinternet.ru##.allpageinner td[height="100"]
 people-ask.ru##.altAdA
 mediapapa.org##.am
+libertycity.net,libertycity.ru##.amazing
 gofrag.ru##.amb-other
 amd.online##.amd-adfree-banner
 cmlt.ru##.an-pic-top-box
@@ -14145,6 +14146,7 @@ reviewdetector.ru##.center_banner
 pornoshara.tv##.center_col > .layout
 vseosi.ru##.centercol > center
 all-for-kompa.ru##.centersideinn > .cblock
+libertycity.net,libertycity.ru##.cfeffdfebabbfee
 pulscen.ru##.chameleon
 play.tavr.media##.channel-centre > .bottom-links ~ .d-md-block
 tlgrm.ru#?#.channel-feed > .channel-feed__brick:-abp-has(> .cfeed-card > .cfeed-card-contents--banner)
@@ -15631,8 +15633,6 @@ bdf.ms##.pageContent > div[style^="outline"] > a[href]:not([href^="../threads/"]
 matematikalegko.ru##.page_Banner
 darktorrent.org##.page__main a[href][target="_blank"] > img
 businessman.ru#?#.page__section:-abp-has(> .partner)
-redheadsound.studio##.page__text > div[style^="color:"]
-redheadsound.studio##.page__text > div[style^="color:"] + p > br
 nur.kz##.page__top
 djekxa.ru##.page_index.content > p a[href][target="_blank"] > img
 1777.ru##.pages_sf_right_block > table[style*="min-height:"]
@@ -16249,7 +16249,6 @@ wm-school.ru##.side-bar > div[style="margin-bottom: 10px;"]
 kinotv1.ru##.side-block > .boxTable ~ .boxTable
 tv-gubernia.ru#?#.side-block:-abp-has(> .side-header + .side-article > .side-article-title > [href=""])
 e-news.pro,e-news.su#?#.side-block:-abp-has(div:-abp-contains(Реклама))
-redheadsound.studio##.side-block[id]
 knigomir.info#?#.side-box:-abp-has(> [id="div-gpt-ad-sidebar"])
 agro-biz.ru##.side-cpa
 drive.ru##.side-link
@@ -17369,7 +17368,7 @@ starhit.ru,woman.ru##[data-creative]
 drive2.com,drive2.ru##[data-data-ym-view]
 banki.ru##[data-dfp-container]
 briefly.ru##[data-disclaimer*="Реклама"]
-basaru.net.ru,gooool365.com,gooool365.org,gooool365.sx,lexxs.us,musictor.ru,redheadsound.studio,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
+basaru.net.ru,gooool365.com,gooool365.org,gooool365.sx,lexxs.us,musictor.ru,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
 dumatv.ru##[data-dzen-url]
 arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##[data-element_type="widget"] a[rel="nofollow"]
 gdetraffic.com##[data-gcat="ads"]
@@ -18663,7 +18662,7 @@ siver.com.ua##body > div[align="right"] > span
 progipertoniyu.ru##body > div[class*="modal"]
 povarenok.ru##body > div[class]:empty:not([style])
 votrube.ru##body > div[class]:last-of-type
-ura.news##body > div[class]:not([class*=" "]):not(.gO):not([style])
+ura.news##body > div[class]:not([class*=" "]):not([class^="geo-region-"]):not([style])
 stopgame.ru##body > div[class]:not([id]):not([style]):empty
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##body > div[class]:not([id]):nth-child(-n+5) > a[href]
 finam.ru##body > div[class^="hidden-"]
@@ -18940,6 +18939,7 @@ joinfo.ua##div[class*="content_ads"]
 livelib.ru##div[class*="context-ads-"]
 highload.tech,mc.today##div[class*="course-widget"]
 ren.tv##div[class*="customButtonsWrapper_"] > div
+redheadsound.studio##div[class*="description"] > p + div[style^="background-color:"]
 fireman.club##div[class*="desktop_direct"]
 www.zoneofgames.ru##div[class*="dver"]
 dltv.org##div[class*="erid"]
@@ -19207,6 +19207,7 @@ sm.news#?#div[class^="it_"]:-abp-has(> div[class^="banner"])
 itechua.com##div[class^="itech-"][id^="itech-"]
 objectiv.tv##div[class^="l-banners"]
 ati.su##div[class^="large-mk"]
+libertycity.net,libertycity.ru##div[class^="lc-stage-gap-"]
 sovsport.ru##div[class^="league_event_container"]
 grad.ua##div[class^="lentainform"]
 football24.ru##div[class^="leon"]
@@ -19474,7 +19475,6 @@ andevice.ru##div[id^="ad_header"]
 indigomath.ru##div[id^="ad_id"]
 imagenizr.net##div[id^="adblock-"]
 menquestions.ru##div[id^="add_rek"]
-redheadsound.studio##div[id^="adfinity-"]
 baginya.org##div[id^="admitad"]
 marieclaire.ua##div[id^="admixer_"] ~ .line
 baby.ru,rb.ru,susanin.news##div[id^="adriver_banner"]
@@ -24815,21 +24815,20 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##iframe[src*="banner"]
 ||vsex-shop.ru^$domain=pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net
 !
 ! Progorod и их сайты
-/api/banner$xmlhttprequest,domain=lipetsknews.ru|myliski.ru|newskrasnodar.ru|newtambov.ru|ngnovoros.ru|pg02.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|pg37.ru|pg46.ru|pgn21.ru|pgr76.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progoroduhta.ru|prosaratov.ru|usolie.info|vladivostoktimes.ru|youtvnews.com
+/api/banner*=$xmlhttprequest,domain=lipetsknews.ru|myliski.ru|newskrasnodar.ru|newtambov.ru|ngnovoros.ru|ngzt.ru|pg02.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|pg37.ru|pg46.ru|pgn21.ru|pgr76.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod76.ru|progorodnn.ru|progoroduhta.ru|prosaratov.ru|usolie.info|vladivostoktimes.ru|youtvnews.com
 !
-ngnovoros.ru,ngzt.ru,progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##.adf-ins
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##.contentRightMainBanner
-ngzt.ru#?#.interesting:-abp-has(> .interesting__wrap:not([style]))
-ngzt.ru##.partner-news
+progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##.adf-ins
+progorodsamara.ru#?#.other-news:-abp-has(> .rotator-b)
 progorodsamara.ru##.rotator-b
-pg21.ru,pgn21.ru##.superPromotionNewsWrap
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class^="banner"]
-ngnovoros.ru,ngzt.ru,progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##[data-ads]
-pg46.ru,usolie.info##a[href*="//dzen.ru/"]
+progorod62.ru#?#.space-y-5:-abp-has(div[id$="holder"])
 progorod62.ru##body > section.container.bg-background
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-content_articleBannerSlot_"]
+progorod62.ru#?#div:-abp-has(> #mediametrics-holder)
+progorod62.ru#?#div:-abp-has(> #smi2-holder)
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class*="Promo"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,ngnovoros.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="promo"]
 pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="social-list-subscribe"] > a[href*="yandex."]
+progorod62.ru##div[id^="fancy-place-ad"]
 !
 ! Rambler.RU и их проекты
 gazeta.ru###_id_sber_auth
@@ -26692,7 +26691,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||imagebam.com/JS/js-cookie.js|$script,domain=imagebam.com
 @@||imagebam.com/assets/js/image_bootstrap.js|$script,domain=imagebam.com
 @@||images.ua.prom.st/*-canon-ir-adv.jpg|$image,domain=printerservice.com.ua
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=1plus1.ua|1plus1.video|24tv.ua|debilizator.tv|gamak.tv|showjet.net|showjet.ru|stream.9tv.co.il|telek.top|unian.info|unian.net|unian.ua|veedi.com|vgtimes.com|vgtimes.ru|viho.me|viho.pro|viho.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=1plus1.ua|1plus1.video|24tv.ua|debilizator.tv|gamak.tv|redheadsound.studio|showjet.net|showjet.ru|stream.9tv.co.il|telek.top|unian.info|unian.net|unian.ua|veedi.com|vgtimes.com|vgtimes.ru|viho.me|viho.pro|viho.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=stream.9tv.co.il
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=stream.9tv.co.il
 @@||img.ria.ru/userpic/$image,domain=ria.ru

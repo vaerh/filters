@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 94+fWXBa1Af+GoGPgMkOOw
-! Version: 202608110151
+! Checksum: /uGnEmSLMY4uMNWPvlVatw
+! Version: 202608120212
 ! Title: EasyList Polish
-! Last modified: 11 Aug 2026 01:51 UTC
+! Last modified: 12 Aug 2026 02:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3000,6 +3000,7 @@ ibielsk.pl##div[class*="grid__ad"]
 janwedzi.pl##div[class*="promo"]
 polskiprzemysl.com.pl##div[class*="reklam"]
 grylogiczne.biz.pl,nakolei.pl,naszwodzislaw.com##div[class*="reklama"]
+portalsamorzadowy.pl##div[class*="sad"]
 miechowski.pl##div[class*="sgpb-popup-"]
 krokdozdrowia.com##div[class*="sponsored"]
 jasnet.pl##div[class*="swiper-slide"]
