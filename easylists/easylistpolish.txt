@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /uGnEmSLMY4uMNWPvlVatw
-! Version: 202608120212
+! Checksum: z96RlCcoE4GDmNX/mjoSeg
+! Version: 202608130211
 ! Title: EasyList Polish
-! Last modified: 12 Aug 2026 02:12 UTC
+! Last modified: 13 Aug 2026 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1916,6 +1916,7 @@ franchising.pl##.page-banners
 controllingirachunkowosc.pl,e-commerce-24.pl,finanseicontrolling.pl,informacjazarzadcza.pl,magazyn-produkcja.pl##.panel-adsites
 infostrow.pl##.papers-box
 automatyka.pl,pomorska.pl##.partner
+portalsamorzadowy.pl##.partners
 ipleszew.pl##.partners2
 magazyngitarzysta.pl##.pasaz-content
 blaugrana.pl##.patron-hide
