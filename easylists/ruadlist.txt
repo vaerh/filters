@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IcrlMSV7/e2EFpsRmfr3gA
-! Version: 202608160131
+! Checksum: vvQWrdQcrh28LqSYpj1TZQ
+! Version: 202608170121
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Aug 2026 01:31 UTC
+! Last modified: 17 Aug 2026 01:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2833,6 +2833,7 @@ _tizers.
 ||fantasy.d2.ru/showban
 ||farle.ru/?bn=
 ||fast-anime.ru^$third-party
+||fastpic.ru^$third-party,domain=~fastpic.org
 ||fatal.ru/adfatal.js
 ||favbet999.com^$third-party
 ||fbs.for-ua.org.ua^
