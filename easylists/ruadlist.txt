@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y2J03ZFStGmTht1fO+3ETg
-! Version: 202608250121
+! Checksum: Iyv+voVCJ7wYh+WmTNq8QQ
+! Version: 202608260132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Aug 2026 01:21 UTC
+! Last modified: 26 Aug 2026 01:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1064,6 +1064,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##.ncwAdCommon
 ##.novelty-banner ~ .dle_b_help > a[target="_blank"]
 ##.novinator
+##.nts-ad
 ##.onona-block
 ##.pb_left_banner
 ##.pb_right_banner
@@ -13142,6 +13143,7 @@ we-reads.com##.abs_row
 kidstaff.com.ua##.absk
 dtf.ru,vc.ru##.account-menu__item > [href^="/store"]
 dtf.ru,vc.ru##.account-menu__item > a[href^="https://edu.vc.ru/"]
+libertycity.net,libertycity.ru##.acfbcbddbddddbfcdc
 digger.ru##.acid
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.active[style="background: #f9561b;; padding: 8px;"]
 alvin-almazov.ru##.active_bet
@@ -14155,7 +14157,6 @@ reviewdetector.ru##.center_banner
 pornoshara.tv##.center_col > .layout
 vseosi.ru##.centercol > center
 all-for-kompa.ru##.centersideinn > .cblock
-libertycity.net,libertycity.ru##.cfeffdfebabbfee
 pulscen.ru##.chameleon
 play.tavr.media##.channel-centre > .bottom-links ~ .d-md-block
 tlgrm.ru#?#.channel-feed > .channel-feed__brick:-abp-has(> .cfeed-card > .cfeed-card-contents--banner)
@@ -17374,6 +17375,9 @@ ixbt.com##[data-branding-content-offset]
 click-or-die.ru##[data-cfpa]
 vgorodekirove.ru##[data-click]
 tvtver.ru##[data-comment*="reklama"]
+t-j.ru##[data-component="product-card"] > a[target="_blank"]
+t-j.ru##[data-component="product-card"] [class^="_priceWrapper_"] > div[class^="_iconLink_"]
+t-j.ru##[data-component="product-card"] div[class^="_moreOffersWrapper_"]
 sport-express.net,sport-express.ru##[data-component="widget-bookmaker-rating"]
 examenpdd.com,liveinternet.ru##[data-container="outer"]
 rosteplo.ru##[data-content*="ERID"]
@@ -23944,7 +23948,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?fFN8t=$xmlhttprequest
+||pikabu.ru/ajax/*?fFN7t=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -25395,7 +25399,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="sektilliom-items-count:"]
+ya.ru##section[style*="sektllliom-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.ImagesApp .AdvPremium-List
