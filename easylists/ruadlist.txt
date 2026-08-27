@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Iyv+voVCJ7wYh+WmTNq8QQ
-! Version: 202608260132
+! Checksum: Dte7FuUmvCNV38P/YQTm3w
+! Version: 202608270822
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Aug 2026 01:32 UTC
+! Last modified: 27 Aug 2026 08:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4287,6 +4287,7 @@ _tizers.
 ||ads2.bid^$third-party
 ||adsafee.io^$third-party
 ||adsclick.ru^$third-party
+||adsconex.com^$third-party
 ||adseedtech.com^$third-party
 ||adselector.ru^$third-party
 ||adservob.com^$third-party
@@ -14361,7 +14362,6 @@ kg-portal.ru##.cough_block
 multiurok.ru##.courses
 rus-urologiya.ru##.cpa_top
 promtu.ru##.cpablcok
-agro-biz.ru,ecology-of.ru##.cpatop
 starhit.ru,woman.ru##.creative
 maximonline.ru,parents.ru,the-day.ru,vokrugsveta.ru##.creative-container._vb-2
 pogoda.com##.creatividad
@@ -15566,7 +15566,6 @@ cardiologiya.com,omastopatii.ru##.offblo
 dermatitanet.ru##.offer-ac
 programma-peredach.com##.offers
 gagadget.com##.offers-index
-agro-biz.ru,ecology-of.ru##.offersblock
 gamestatus.info##.offline-act-banner
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##.oi_papa_oi
 myshows.me##.okko
@@ -16263,7 +16262,6 @@ kinotv1.ru##.side-block > .boxTable ~ .boxTable
 tv-gubernia.ru#?#.side-block:-abp-has(> .side-header + .side-article > .side-article-title > [href=""])
 e-news.pro,e-news.su#?#.side-block:-abp-has(div:-abp-contains(Реклама))
 knigomir.info#?#.side-box:-abp-has(> [id="div-gpt-ad-sidebar"])
-agro-biz.ru##.side-cpa
 drive.ru##.side-link
 1tv.ru##.side-promo-place-right
 parnuxi.biz##.side-rkl-section
@@ -16939,7 +16937,6 @@ gdz-putina.fun##.vk_show
 vk.com,vk.ru##.vkuiBanner__host
 yapx.ru##.vlDxyyFUTdjDdXmIBPxWDa
 spletnik.ru##.vms_article_parent a[href*="utm_"]
-agro-biz.ru,ecology-of.ru##.vnimanie
 megaresheba.ru##.vopros-block
 allboxing.ru#?#.voting > .block_title:-abp-contains(Новости партнеров)
 8vp.ru##.vp-content-l-r > div > *
@@ -23912,12 +23909,12 @@ igdz1.ru^$script,domain=igdz.ru
 ! запросы
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+[^e]\.js(?:\?.*)?$/$script
+/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.[^/?.]{1,3}\.js(?:\?.*)?$/$script
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.e\.js(?:\?.*)?$/$script
 ||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/*.me.js$script
 ||static.dzeninfra.ru/s3/zen-apps/*/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com|businessua.com
@@ -24829,7 +24826,6 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###page_header > div[style^="p
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###pl-speedbar
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###post_prelast_ad
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###tor-fl-bgn
-$third-party,object,subdocument,domain=pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net#?#.forums > tbody > tr[id]:-abp-has(> td script)
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > .tCenter ~ .tCenter + tr
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > tr.row1 ~ .row3
@@ -25288,14 +25284,18 @@ sports.ru##body > div[class^="br-lt"] > :not(.page-layout):not(.pageLayout)
 tribuna.com#?#div:-abp-has(> div > [style="display: flex;"] > div[id*="_Inread"])
 sports.ru##div[class*="SALES"] > .accordion__handle
 tribuna.com##div[class*="main_layout__empty_block"]
+tribuna.com#?#div[class*="right_column"] div:-abp-has(> [style^="--banner-height:"])
+tribuna.com##div[class^="Banner-module"]
 tribuna.com##div[class^="BookmakerGift"]
 tribuna.com##div[class^="MatchLayout-module_"] > [style="display: contents;"] > [data-test]
+tribuna.com##div[class^="_ideal-media_"]
 tribuna.com#?#div[class^="_structured-body_"] > div:-abp-has([id*="Postscripts_News"])
 cyber.sports.ru##div[class^="desktop-teaser_"] a[href*="://sirena.world/"]
 tribuna.com##div[data-anchor^="_"][class^="_"]
 sports.ru##div[data-control-noinit="Common.BetsTabs"]
 sports.ru##div[data-control="Common.AutoInit"]
 sports.ru##div[data-control^="Common.Bets"]
+tribuna.com##div[style^="--banner-height:"]
 sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
 tribuna.com##span[class^="_comments__loader"][class*="_spinner_"]
@@ -26335,21 +26335,16 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 21forum.ru,forum.na-svyazi.ru,forum.zarulem.ws#@##HeroAd
 ujmos.ru#@##ab_adblock
 ujmos.ru#@##ad-buttons
-graffiks.ru#@##ad-target
 dme.ru,domodedovo.ru#@##adBanner1
 dme.ru,domodedovo.ru#@##adLink1
-stepashka.com#@##ad_header
-devicesearch.ru#@##ad_top
 yroslava.ru#@##ads-container
 topserver.ru#@##ads1
 topserver.ru#@##ads2
 topserver.ru#@##ads3
 topserver.ru#@##ads4
-devicesearch.ru#@##ads_top
 vk.com,vk.ru#@##ads_wrapper
 pc-aio.ru#@##adstop
 arabela.ru,mathsisfun.com,slavyansk.biz,tagline.ru,x-time.ru#@##adv
-videoxq.com#@##adv-title
 mycinema.pro#@##adv_config
 corrupt.pnzreg.ru#@##adv_right
 mobile-review.com#@##advblock
@@ -26368,8 +26363,6 @@ irr.ru#@#.ad-block
 chess-online.com#@#.ad-cluster
 architecture.az#@#.ad-code
 joblib.ru#@#.ad-flag
-vdvanapa.ru#@#.ad-img
-stomsuper.com,waifucards.app#@#.ad-item
 mishka-knizhka.ru#@#.ad-placeholder
 mishka-knizhka.ru#@#.ad-tag
 auto.am#@#.ad-title
@@ -26380,33 +26373,23 @@ alliance-catalog.ru#@#.ad_header
 divendo.ru,fvds.ru#@#.ad_image
 sellua.info#@#.ad_img
 sellua.info#@#.ad_item
-photodoska.ru#@#.ad_large
-photodoska.ru#@#.ad_small
 avtotag.ru,primorsko-ahtarsk.ru#@#.ad_text
 my.mail.ru#@#.adds
 bamper.by,bazar.bike,biblionika.info#@#.adds-wrapper
 kvartirant.by#@#.adinfo
-insignia-mebel.ru#@#.ads-bg
 kvartirant.by#@#.ads-box
-insignia-mebel.ru#@#.ads-footer
 reklama-sev.com.ua#@#.ads-holder
 bamper.by#@#.ads-image
 abtorg.ru,vse.sale#@#.ads-list
 belarus-index.site,guidesgame.ru#@#.ads-row
-rod-vzv.info#@#.ads1
-railtransport.ru#@#.ads_2
-railtransport.ru#@#.ads_3
 mykontakts.org#@#.ads_block
 ds45spb.ru#@#.ads_item
-exocur.ru#@#.adsense-header
 ntsk.ru#@#.adsinfo
-blag-vesti.ru#@#.adslot_1
 vtomske.ru#@#.adtable
 kvartirant.by#@#.adtxt
 board.sibnet.ru,fridger.com.ua,hawk.ru,hmgma.ru,openbudget.gfu.ru,pcradio.ru,postiralka.com.ua,school.kupiltovar.ru,servkino.ru,siproen.ru,sovcombank.ru,tehnika4u.ru#@#.adv
 school.kupiltovar.ru#@#.adv-4
 azartcash.com,twite.ru#@#.adv-block
-fiberdevice.ru#@#.adv-header
 xn--74-6kcaj3c0aikq.xn--p1ai#@#.adv-right
 100kolyasok.kz,4.u0166811.z8.ru,calls.su,chistosex.org,teu-eurocara.com.ua#@#.adv-text
 fridger.com.ua,postiralka.com.ua#@#.adv_left
@@ -26430,7 +26413,6 @@ pokrov-monastir.ru#@#.container--ads
 agrobook.ru#@#.context-ads
 f-igri.ru#@#.google_ad
 skodarapidclub.ru#@#.headerad
-ecology-of.ru#@#.home-ads
 kyron-clan.ru,simmama.com#@#.ipsAd
 erokarta.ru,kinoclub.org.ua#@#.item-ads
 sellua.info#@#.lastads
@@ -26438,13 +26420,13 @@ bestgardener.ru#@#.madv
 architecture.az#@#.mom-ad
 stalkerportaal.ru#@#.n_ad
 agrobook.ru,planet-watersport.ru#@#.node-ad
+u-news.com.ua#@#.nts-ad
 autodromo.ru#@#.page-ads
 24sk.ru#@#.page-advert
 school-tea.ru#@#.panel-ad
 kino-sex.ru,sosxxx.ru,vekx.ru,xxx.vekdvd.ru#@#.pm-ads-banner
 grafik-smen.ru#@#.reklam
 landlord.ua,poima360.ru,rodinkam.net,skylineproduction.com.ua#@#.reklama
-dalryba.ru#@#.section-adv
 rabkor.ru#@#.sidebar-ad-c
 krym.news,novostivl.ru,ryazan.life,v-tatarstane.ru,yakutsk.ru#@#.sidebar_ads
 abrikos.us#@#.single-ad
@@ -26836,7 +26818,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||pdrs.dp.ua/images/rek/$domain=pdrs.dp.ua
 @@||petersburgedu.ru^*/banner$domain=petersburgedu.ru
 @@||pgpru.com^*/files?get=$domain=pgpru.com
-@@||photodoska.ru/content/dynamic/ads/$domain=photodoska.ru
 @@||picusha.pw/js/main.js|$script,domain=picusha.pw
 @@||piguiqproxy.com/api|$third-party,xmlhttprequest
 @@||piguiqproxy.com/z|$third-party,xmlhttprequest
