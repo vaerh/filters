@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x1sSm5+Qaf7TsqyC3gUtGw
-! Version: 202609040341
+! Checksum: xk2Hxu/3GIgOTci1Xqogag
+! Version: 202609050342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Sep 2026 03:41 UTC
+! Last modified: 05 Sep 2026 03:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1735,14 +1735,10 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ! FastPic
-/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin; img-src *.fastpic.org fastpic.org static.fastpic.ru
-fastpic.org###picContainer .btn-outline-secondary {background-color:#2b6cb0;color:#fff;}
-fastpic.org###picContainer .btn-primary
-fastpic.org###picContainer > [style="position: relative;"] {background-image:none;}
-fastpic.org###picContainer a[href*="/fullview/"] > img:not([src])
-fastpic.org##.image-wrapper ~ div ~ div:not(.show-code-content)
-fastpic.org##.show-code-button
-fastpic.org##.show-code-content {display:block;}
+/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
+@@/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin;
+fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] > img[src*="/preview/"] {margin-bottom:-38px;display:block;}
+fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] {display:inline-block;overflow:hidden;}
 ! ---
 ex-fs.net###content {margin-top:0;}
 interface31.ru##.ads-top-container {min-height:0;margin-bottom:0;}
@@ -3216,6 +3212,7 @@ _tizers.
 ||mostinfo.net/img/top/
 ||mostlv.com^$third-party,subdocument
 ||moviecash.ru^$third-party
+||movieweb.ru^$third-party,script
 ||mrringo.com/images/banners/$third-party
 ||multiclick.ru^
 ||multonly.ru^$third-party
@@ -11445,7 +11442,7 @@ _vodkov.net
 !
 ! FastPic-partners
 /splash.php?*fastpic$document
-=*=*fastpic$document
+=*=*fastpic*%$document
 ||crmared.com^$document
 ||epicgameshubham.com^$document
 ||eprdl.online^$document
@@ -17647,6 +17644,7 @@ allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [href*="utm_source=vk_ads"])
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(onelink.me/))
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel][href*="utm_campaign"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has([aria-label="Реклама от автора"])
@@ -19018,6 +19016,7 @@ superjob.ru##div[class*="f-test-vacancy-ad-context-"]
 prokuzbass.ru#?#div[class*="flex-grow"]:-abp-has(> .sticky > .adv)
 fedpress.ru##div[class*="follows-channel_yandex"]
 lifehacker.ru##div[class*="footer-widgets__container"] > [data-key^="custom_html-"]
+sportsdaily.ru##div[class*="giftButton"]
 tm.ati.su,trucks.ati.su#?#div[class*="grid-user-data"]:-abp-has(> [class*="user-data-grid"] > :empty)
 prnt.sc##div[class*="grundik"]
 sravni.ru##div[class*="hero-section_branding_"]
@@ -19271,7 +19270,6 @@ otzywy.com##div[class^="goog"]
 gisher.org##div[class^="gov"]
 pipdecor.ru##div[class^="hairw-"]
 nsportal.ru##div[class^="header-top"] ~ *
-sportsdaily.ru##div[class^="header_headerGift"]
 hindcine.tv##div[class^="hind"]
 business-gazeta.ru##div[class^="holiday-carousel"]
 lolzteam.online##div[class^="homeBannersAds"]
@@ -19329,7 +19327,6 @@ tsn24.ru##div[class^="post-banner"]
 pln-pskov.ru##div[class^="pr__news"][style="padding-right: 0 !important;"]
 soft.sibnet.ru##div[class^="programm_block-ad"]
 sovsport.ru##div[class^="promo-menu"]
-sportsdaily.ru##div[class^="promoMenu_giftButton_"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[class^="r"][style*="height:"]
 glavred.info,glavred.net##div[class^="r"][style^="height"][style*="margin:"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[class^="r711"]
@@ -20369,6 +20366,7 @@ forum.abok.ru##span[style^="color: #4F4F4F; font-size: 6pt; text-align: left;"]
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##sport[name="soccer"]
 nuriknur.ucoz.com##strong > span[style="color:red"]
 onliner.by#?#strong:-abp-contains(нож блокировщику)
+fastpic.org##style:first-child + b:empty:last-child
 surl.*##.promo-block
 surl.*##.promo-title
 surl.*##.very-nice-button
@@ -25154,6 +25152,7 @@ cnews.ru#?#a[href^="https://www.cnews.ru/redirect.php"]:-abp-contains(Дзен)
 autonews.ru,rbc.ru,rbcautonews.ru,sportrbc.ru##body div .banner__container
 autonews.ru,rbc.ru,sportrbc.ru##body div .banner__filmstrip
 rbc.ru#?#body.free .intresting__list > .intresting__item:-abp-has(a[href^="https://pro.rbc.ru/"])
+rbc.ru#?#body.free .sticky-element > article:-abp-has([href^="/story/pro"])
 rbc.ru##body.free a.meta-info-row-project[href^="https://pro.rbc.ru"]
 rbc.ru##body.free a[class^="styles_message-bar_"][href^="https://pro.rbc.ru/"]
 rbc.ru#?#body.free aside.bside .sidebar:-abp-has(a[href^="https://pro.rbc.ru/"])
@@ -25168,6 +25167,7 @@ rbc.ru#?#body.free div[class="central-publisher-item"]:nth-child(-n+2):-abp-has(
 rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href*="utm_campaign"]
 rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href^="https://pro.rbc.ru/"]
 rbc.ru##body.free div[class^="style_promo_"]
+rbc.ru#?#body.free div[data-metronome-unit="article"] > div:-abp-has([href^="/story/pro"])
 rbc.ru##body.free div[data-name^="SpecialBlockPro"]
 rbc.ru##div[class="central-publisher-item"] a[href*="erid="]
 rbc.ru#?#div[class="central-publisher-item"]:-abp-has(.commercial-slider p:-abp-contains(Реклама))
@@ -27365,6 +27365,7 @@ allbookerka.org##.overhang
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 retail.ru##.p1-retail
 retail.ru##.p2-retail
+rosserialhd.ru##.player_ad_attention
 clan-soprano.ru##.popupBlock
 uniondht.org##.post_body > div[style="color:red;font-size:25px;"]
 electric-house.ru#?#.rules:-abp-has(> p > [src="/img/no_ad.png"])
