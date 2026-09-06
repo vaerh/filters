@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xk2Hxu/3GIgOTci1Xqogag
-! Version: 202609050342
+! Checksum: OamBuNtcO5q1/aMwcF6yuA
+! Version: 202609060352
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Sep 2026 03:42 UTC
+! Last modified: 06 Sep 2026 03:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1747,6 +1747,9 @@ kg-portal.ru##.ten_topbar + div:not(.ten_ears_wrap) {display:none;}
 kg-portal.ru##.ten_topbar {max-height:10px;}
 kg-portal.ru##body > .menu_wrap {position:relative;}
 kg-portal.ru##body {background-image:none;background-color:inherit;}
+kinopoisk.ru##.app__page > div > div:first-child {min-height:0;}
+kinopoisk.ru##.app__page > div:first-child {min-height:0;}
+kinopoisk.ru##div[class^="styles_middleContainer_"] > div:first-child {min-height:0;}
 libertycity.net,libertycity.ru##body > div[class]:not([id]):not([style]) {background-image:none;}
 lifehacker.ru##a[href*="erid="]:not([href^="/"]):not([href^="https://lifehacker.ru/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 mem-hub.ru###appPromoModal {display:none;}
@@ -15353,6 +15356,7 @@ bookskeeper.ru##.mdl
 ximepa.ru##.mdwr
 gdz-putina.fun,gdz.fm,gdz.ninja,gdz.ru,gdzguru.com,gdzotputina.club,gdzputina.net,megaresheba.com,megaresheba.ru,resheba.me,reshebnik.com,spishi.fun,stavcur.ru,sumypost.com,xn--c1acj.xn--p1acf,xn--c1acj.xn--p1ai,zoobrilka.net##.media
 myslo.ru##.media-ads-block
+www.kinopoisk.ru##.media-post-page div[id] > style:first-child + div[id][style^="width:"][style*="height:"]:last-child
 shostka.info##.media:not([style="padding:0;"])
 auto43.ru##.media_aside_our-partners
 gazeta.spb.ru##.mediacartel
@@ -19091,7 +19095,6 @@ point.md#?#div[class]:-abp-has(> a[href*="://sales.simpals.com/"][href*="banner"
 spafilms.me#?#div[class]:-abp-has(> a[title] > div[class])
 drive2.ru#?#div[class]:-abp-has(> div > .drom-logo)
 searchengines.guru#?#div[class]:-abp-has(> div[id][align="center"])
-www.kinopoisk.ru##div[class]:first-child > div[class*=" "] > div:first-child + :not(div) + div[class*=" "]:last-child
 ytvideo.ru##div[class][data-aid]
 mk.ru,prnt.sc##div[class][style*="important"]
 rlocman.ru##div[class][style="background-color:#fcfcee;padding:10px"]
@@ -19309,7 +19312,6 @@ www.film.ru##div[class^="okko"]
 open4business.com.ua##div[class^="open4-sidebar"]
 drive.ru##div[class^="osago-"]
 investing.com##div[class^="outbrain_outbrain-wrapper_"]
-caniplay.ru##div[class^="page-block-ad"]
 n1.ru##div[class^="page-header__top-banner"]
 soccer365.com.ua,soccer365.ru#?#div[class^="page_"][class$="_right"] div:-abp-has(> div[id]:empty ~ script)
 miasskiy.ru##div[class^="papex"]
@@ -24409,7 +24411,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,sportmail.ru##div[article-item-type="contentroll"]:empty
 ~e.mail.ru,mail.ru,sportmail.ru##div[class*="rb-slot_plug"]
 ~e.mail.ru,mail.ru,sportmail.ru##div[data-closewrap-container]
-~deti.mail.ru,~e.mail.ru,mail.ru,sportmail.ru##div[data-tooltip-root]
+~e.mail.ru,mail.ru,sportmail.ru##div[data-tooltip-root][style*="fixed"]
 ~dobro.mail.ru,~e.mail.ru,mail.ru,~my.mail.ru,sportmail.ru##table > tbody > tr > td:first-child + td + td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru#?#tbody:-abp-has(> tr > td > [class*="daynews__item"]) > tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##tr > .daynews__spring
@@ -24540,7 +24542,6 @@ otvet.mail.ru##div[data-pos]
 deti.mail.ru##.cols__wrapper > aside
 deti.mail.ru##.deti-slot_exchange
 deti.mail.ru##.js-smoky-end
-deti.mail.ru##div[data-tooltip-root][style*="fixed"]
 ! Мини-игры
 minigames.mail.ru##.left-advert-block
 minigames.mail.ru,okminigames.mail.ru#?#[href^="https://minigames.imgsmail.ru/static/css/social-likes."] ~ div[class]:-abp-has([href*="/info/adblock"])
