@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BH07nxr9I3ilFsgoIU7vKw
-! Version: 202609110352
+! Checksum: 6HKP0iq8e+qiIxI0c4zoPg
+! Version: 202609120352
 ! Title: EasyList Polish
-! Last modified: 11 Sep 2026 03:52 UTC
+! Last modified: 12 Sep 2026 03:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -631,6 +631,7 @@ src="https://podhaleregion.pl/wp-content/uploads/2025/01/BANER-3-PODHALE-REGION-
 ||postimg.cc^$domain=pogonsportnet.pl
 ||powiatowy.pl/wpprod/wp-content/uploads/2019/10/konarski1.jpg
 ||powiatowy.pl/wpprod/wp-content/uploads/2020/06/linda-1.jpg
+||powiatowy.pl/wpprod/wp-content/uploads/2022/04/reklama-SKP.jpg
 ||powiatowy.pl/wpprod/wp-content/uploads/2022/04/stacja-.jpg
 ||powiatowy.pl/wpprod/wp-content/uploads/2023/10/pomoc.jpg
 ||powiatowy.pl/wpprod/wp-content/uploads/2025/03/com-banert.jpg
