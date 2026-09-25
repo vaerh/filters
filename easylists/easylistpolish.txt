@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y71exJ4sGeFfzFLzi4OFZA
-! Version: 202609240403
+! Checksum: 9hJN12meTCfaxAHZXk61Yw
+! Version: 202609250412
 ! Title: EasyList Polish
-! Last modified: 24 Sep 2026 04:03 UTC
+! Last modified: 25 Sep 2026 04:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3006,7 +3006,7 @@ ipragapoludnie.pl##div[class*="ad--bill-top"]
 milmag.pl##div[class*="ad--image"]
 infosecurity24.pl##div[class*="ad-banner"]
 elk24.pl##div[class*="ad-type-"]
-gdanszczak.pl,gdyniak.pl,krakusik.pl##div[class*="adName"]
+gdanszczak.pl,gdyniak.pl,krakusik.pl,poznaniak.pl##div[class*="adName"]
 pomorska.pl##div[class*="ads"]
 strzal.pl##div[class*="ads-container-"]
 gs24.pl##div[class*="adsSlotContainer"]
