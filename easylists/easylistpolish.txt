@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UN2bD65rppqztDznIFJVfA
-! Version: 202609280433
+! Checksum: BjgAnGf3iAbt64ocMpWENg
+! Version: 202609290503
 ! Title: EasyList Polish
-! Last modified: 28 Sep 2026 04:33 UTC
+! Last modified: 29 Sep 2026 05:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1428,6 +1428,7 @@ android.com.pl##.banner__placeholder
 radiopoznan.fm##.banner_asset_present_box
 dkl24.pl##.banner_box_frame
 weranda.pl##.banner_container
+press.pl##.banner_info
 confero.pl##.banner_panel
 zmpd.pl##.banner_po_lewej
 pik.kielce.pl##.banner_reklama_el
