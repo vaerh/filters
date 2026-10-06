@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610050449
+! Version: 202610060546
 ! Title: EasyPrivacy
-! Last modified: 05 Oct 2026 04:49 UTC
+! Last modified: 06 Oct 2026 05:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 20dd50480dd2fd278a5902d234c9010c5b1bf28f
+! Commit: 64e1e47c73ed2486f32b7a04cde44b921bf3aa5c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -9187,6 +9187,7 @@ omni.soundestlink.com$image
 ||viowrel.com^
 ||viralfoodie.net^
 ||virtualvincent.com^
+||visualcommservices.com^
 ||vividcache.com^
 ||vividcanopy.com^
 ||vividfrost.com^
@@ -16952,6 +16953,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.codeur.com^
 ||stats.darkreader.app^
 ||stats.davidickedelivery.com^
+||stats.flixcloud.cc^
 ||stats.gateio.ch^
 ||stats.habr.com^
 ||stats.hexa.watch^
@@ -56238,6 +56240,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 @@||gtm.idealo.*/gtm.js?$domain=idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
+@@||heimdall.hearstapps.com/voltron$third-party,xmlhttprequest,domain=caranddriver.com
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|corsair.com|furniturevillage.co.uk|luggagehero.com
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com

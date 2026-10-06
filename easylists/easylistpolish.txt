@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sSE54hYaJX9b7ZsG7pK9uw
-! Version: 202610050452
+! Checksum: JgCh529pIa511n5nc9GQIA
+! Version: 202610060542
 ! Title: EasyList Polish
-! Last modified: 05 Oct 2026 04:52 UTC
+! Last modified: 06 Oct 2026 05:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2533,6 +2533,7 @@ gazetamyszkowska.pl##a[href*="norwit.pl"]
 badaniaprenatalne.pl##a[href*="ojcostwoprenatalne.pl"]
 badaniaprenatalne.pl##a[href*="poradagenetyka.pl"]
 naszarola.pl##a[href*="procam.pl"]
+projektpraca.eu##a[href*="radiokielce.pl"]
 infoskierniewice.pl,kaliszak.pl,leczna24.pl,nedds24.pl,oprocentowanielokat.pl##a[href*="reklama"]
 kathyleonia88.blogspot.com##a[href*="shopmascot"]
 igrit.pl##a[href*="solan"]
