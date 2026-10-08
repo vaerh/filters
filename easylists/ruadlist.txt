@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yGZLVqlFfpw2ENFFcyrPVw
-! Version: 202610070512
+! Checksum: W0N4ymwRguxgv+NEBq3BSg
+! Version: 202610080522
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Oct 2026 05:12 UTC
+! Last modified: 08 Oct 2026 05:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15132,6 +15132,7 @@ allboxing.ru#?#.last-news:-abp-has(> .block_title ~ [id^="unit_"])
 footballhd.ru#?#.lastnewscat:-abp-has(> [id*="ScriptRoot"])
 rayon.in.ua#?#.latestNews__list > .latestNews__item:-abp-has(> a > div > .latestNewsCard__tag:-abp-contains(РЕКЛАМА))
 dsgners.ru##.layout > .overflow-hidden[style^="background"]
+voshod-solnca.ru#?#.layout-row > div:-abp-has(> div > div > .advertisement)
 eapteka.ru##.layout__banners
 eurointegration.com.ua##.layout_news > .separator::after
 ko.com.ua##.layout_right_column > p
@@ -16970,9 +16971,9 @@ api-video.khl.ru##.vjs-link_view-yandex-plus
 sovetromantica.com##.vjs-overlay-background
 prgazeta.ru##.vk-group
 gdz-putina.fun##.vk_show
+vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
+vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 vk.com,vk.ru##.vkuiBanner__host
-vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
-vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 yapx.ru##.vlDxyyFUTdjDdXmIBPxWDa
 spletnik.ru##.vms_article_parent a[href*="utm_"]
 megaresheba.ru##.vopros-block
@@ -23979,7 +23980,7 @@ igdz1.ru^$script,domain=igdz.ru
 !#if ext_abp
 ! запросы
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
-/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]*\/[^/?]*[a-zA-Z0-9]{20,}/$script
+/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]*\/(?:[^/?0-9]*[0-9]){5}[^/?]*(?:\?.*)?$/$script
 ||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
@@ -25693,6 +25694,7 @@ tv.yandex.ru,tv.yandex.*##script[nonce] + script[nonce] + div[class]
 ! Дзен Yandex-edition
 dzen.ru###branded-banner
 dzen.ru##.adv-skeleton___main
+dzen.ru##.climate-calendar-container > .climate-calendar-container__content ~ div
 dzen.ru##.mini-suggest__popup-extra .slices
 dzen.ru##[aria-label^="Peкл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" p"][aria-label*="кл"]
@@ -27386,6 +27388,9 @@ usemind.org##.a-top
 delfi.ee##.ad-block-layer
 ogorod.ru##.adblock_popup_warning
 wowjp.net##.adblocker-notification
+p2.jut-su.online##.agp-err > b
+p2.jut-su.online##.agp-err > div > [data-ab="reload"]
+p2.jut-su.online##.agp-err > p
 pes-files.ru##.alert-blue
 electric-house.ru##.alert_warn
 stylenews.ru##.alm-btn-wrap
