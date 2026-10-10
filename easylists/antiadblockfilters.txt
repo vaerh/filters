@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mvOClMPl3grYIFYi84+N7g
-! Version: 202610090522
+! Checksum: 5K92/W+rCrrWkMD5dWgb/A
+! Version: 202610100512
 ! Title: Adblock Warning Removal List
-! Last modified: 09 Oct 2026 05:22 UTC
+! Last modified: 10 Oct 2026 05:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
@@ -2799,8 +2799,9 @@ comptoir-info.com#@#.textad
 @@||tvanouvelles.ca^$generichide
 !
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_german.txt ***
-##.diysdk_webServices_banners1und1MainContent
 usgang.ch###rectangle-wrapper
+##.diysdk_webServices_banners1und1MainContent
+igorslab.de##.ilab-adblocker-notice
 ||jappy.tv/i/wrbng/abb.png
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_hebrew.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_indonesian.txt ***
