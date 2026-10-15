@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QBkVExobiZLTVxNQYhh9tg
-! Version: 202610140412
+! Checksum: 8R1RWWXS12gPLfvBT9kZUg
+! Version: 202610150352
 ! Title: EasyList Polish
-! Last modified: 14 Oct 2026 04:12 UTC
+! Last modified: 15 Oct 2026 03:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3032,6 +3032,7 @@ motofaktor.pl##div[class*="angwp"]
 gp24.pl,nowiny24.pl##div[class*="atomsAdsCellModel"]
 gp24.pl##div[class*="atomsPromotionsBanner"]
 grafoteka.pl,independenttrader.pl,plusliga.pl,polski-tenis.pl##div[class*="baner"]
+przeambitni.pl##div[class*="banery"]
 gpd24.pl,inwestycje-rzeszow.pl,irenakuczynska.pl,itreseller.pl,krs-pobierz.pl,kwejk.pl,lubiehrubie.pl,mikrokontroler.pl,nbi.com.pl,ppe.pl##div[class*="banner"]
 portalgorski.pl##div[class*="bannergroup"]
 e-kolo.pl##div[class*="bg-light mt-3 mb-3 p-2"]
