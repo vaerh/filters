@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7p7JNI1bAlo7usnqEI2tBg
-! Version: 20261023083837447
+! Checksum: 2iA9vYDJXBGroXclzKGr0A
+! Version: 20261023201736320
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
 ! Title: ABPVN List
-! Last modified: 23 Oct 2026 08:38:37 UTC+7
-! Diff-Path: patches/20261023083837447.patch#abpvn
+! Last modified: 23 Oct 2026 20:17:36 UTC+7
+! Diff-Path: patches/20261023201736320.patch#abpvn
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -599,7 +599,6 @@ motchillu.mx##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.
 motchillxe.cc##.overlay-1
 motphimc.mx##.bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 motphimchilll.icu###catfish_ad_top
-mphimtv.my##div[data-widget-id]
 nettruyen14s.com##.ad_info
 nettruyen14s.com##.ads_insert_shop
 new.tructiepnba.me##.truct-catfish
@@ -1029,7 +1028,7 @@ cliphot69.cloud###custom_html-42
 cliphotvn69.com,dynadot.rsocdomains.com,cliphot69.cloud,www.gvnvh18z.com,phimsexhayvne.com,sayhentai.cx,xamvn.yachts,sexviet69.cc##.float-ck-center-lt
 damconuong.win##.catfish-ad
 damconuong.win##a[rel="nofollow"]
-dualeotruyenbet.com##[id$="bnr"]
+dualeotruyenday.com##[id$="bnr"]
 fullcliphot.org##div#recent-content:nth-of-type(1)
 fullcliphot.org,fulllivehot.us,clipphot.co##.cashfish
 fullcliphot.org,fulllivehot.us,clipphot.co##.mini-player
