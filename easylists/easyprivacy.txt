@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610300507
+! Version: 202610310446
 ! Title: EasyPrivacy
-! Last modified: 30 Oct 2026 05:07 UTC
+! Last modified: 31 Oct 2026 04:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ce3d28c19efa81374959ea89980dce63360d43d1
+! Commit: 3dc8ffabd3a3de603b1f069b59def6648ffe51f3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6923,6 +6923,7 @@ omni.soundestlink.com$image
 ||bestboundary.com^
 ||bestclimbers.net^
 ||bestcoffeemachine.net^
+||bestpriceonly.com^
 ||bestshoesboot.com^
 ||bestsportsbra.com^
 ||betazebra.com^
@@ -7082,6 +7083,7 @@ omni.soundestlink.com$image
 ||cardmethod.com^
 ||cardproducer.com^
 ||carefuldolls.com^
+||cargrasp.com^
 ||caringcast.com^
 ||carloforward.com^
 ||carpoolmatch.com^
@@ -7618,6 +7620,7 @@ omni.soundestlink.com$image
 ||floweryfact.com^
 ||floweryflavor.com^
 ||floweryoperation.com^
+||fluffybirds.com^
 ||flushingbeast.com^
 ||flutteringfireman.com^
 ||flyflightstar.com^
@@ -7816,6 +7819,7 @@ omni.soundestlink.com$image
 ||heycomputers.com^
 ||heyhotshots.com^
 ||hfc195b.com^
+||higherhub.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
 ||highnoongear.com^
@@ -7880,6 +7884,7 @@ omni.soundestlink.com$image
 ||incomehippo.com^
 ||incompetentjoke.com^
 ||inconclusiveaction.com^
+||indscout.com^
 ||infamousstream.com^
 ||infinityhedge.com^
 ||informalbook.com^
@@ -15596,6 +15601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bi.banggood.com^
 ||bicp-analytics.postscript.io^
+||bifrost-api.hotstar.com^
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
 ||bing.com/fd/ls/GLinkPing.aspx?
@@ -57038,6 +57044,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp|nexon.com
 @@||navacom.info/count.php?$~third-party
+@@||neruco-search.ec-optimizer.com^$script,domain=i-office1.net
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
