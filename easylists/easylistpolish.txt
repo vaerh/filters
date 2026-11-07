@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7AwO5lyZr+MuVqkLzRvg+Q
-! Version: 202611060552
+! Checksum: Q6kw4DFwKgwYGoSzWxHwWg
+! Version: 202611070522
 ! Title: EasyList Polish
-! Last modified: 06 Nov 2026 05:52 UTC
+! Last modified: 07 Nov 2026 05:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -669,6 +669,7 @@ src="https://podhaleregion.pl/wp-content/uploads/2025/01/BANER-3-PODHALE-REGION-
 ||przyjaznawarszawa.pl/images/Frame%201%2011.jpg
 ||ps3-hack.pl^*^buttons/VirtualFuture.
 ||pultusk24.pl/static/files/inline_images/118/inline__1_3388.gif
+||pultusk24.pl/static/files/inline_images/118/inline__1_4210.png
 ||radiosudety24.pl^*^sad^$image
 ||redefineadpl.hit.gemius.pl^$domain=polsatnews.pl|polsatsport.pl
 ||rehabilitacyjne.pl^*_maxim.
