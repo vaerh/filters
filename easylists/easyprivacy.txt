@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611140541
+! Version: 202611150534
 ! Title: EasyPrivacy
-! Last modified: 14 Nov 2026 05:41 UTC
+! Last modified: 15 Nov 2026 05:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b2ae35a3b67d69e9306b726904033a688339913c
+! Commit: c5d9f53af837d523c05c6fca227ad237708db500
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8887,6 +8887,7 @@ omni.soundestlink.com$image
 ||silentsingle.com^
 ||siliconslow.com^
 ||siliconuser.com^
+||silkyslumber.com^
 ||sillyscrew.com^
 ||simplenaming.com^
 ||simplesafari.com^
@@ -9174,6 +9175,7 @@ omni.soundestlink.com$image
 ||tableleaders.com^
 ||tackytrains.com^
 ||tacojournal.com^
+||tagloyalty.com^
 ||tailoredcopy.com^
 ||talltouch.com^
 ||tangibleteam.com^
@@ -9278,6 +9280,7 @@ omni.soundestlink.com$image
 ||topratedwaterfilter.com^
 ||topsecretapp.net^
 ||topthrowbacks.com^
+||torhosting.net^
 ||tortoisepage.com^
 ||toweringanswer.com^
 ||toysbasics.com^
@@ -9287,6 +9290,7 @@ omni.soundestlink.com$image
 ||traderbyte.com^
 ||tradetooth.com^
 ||trainingreality.com^
+||trainyourlab.com^
 ||tranquilcan.com^
 ||tranquilplume.com^
 ||tranquilveil.com^
@@ -11584,6 +11588,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2gt2ux04o03l1.cloudfront.net^
 ||dadi.technology^$third-party
 ||dash.getsitecontrol.com^
+||dash.kryon.one^
 ||dashboard.nowdialogue.com/api/events/
 ||data.circulate.com^
 ||data.debugbear.com^$third-party
