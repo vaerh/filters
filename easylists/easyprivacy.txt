@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611150534
+! Version: 202611160533
 ! Title: EasyPrivacy
-! Last modified: 15 Nov 2026 05:34 UTC
+! Last modified: 16 Nov 2026 05:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c5d9f53af837d523c05c6fca227ad237708db500
+! Commit: 710ede3bfc016e649a82fe6ac819d3754d7fb09b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8985,6 +8985,7 @@ omni.soundestlink.com$image
 ||soresidewalk.com^
 ||soretrain.com^
 ||soulclicking.com^
+||soulfreedom.net^
 ||soundmachine.net^
 ||soundmuseums.com^
 ||soundstocking.com^
@@ -9282,6 +9283,7 @@ omni.soundestlink.com$image
 ||topthrowbacks.com^
 ||torhosting.net^
 ||tortoisepage.com^
+||tourspicker.com^
 ||toweringanswer.com^
 ||toysbasics.com^
 ||toytakeover.com^
@@ -9302,6 +9304,7 @@ omni.soundestlink.com$image
 ||treatoceans.com^
 ||tremendousplastic.com^
 ||tremendoustime.com^
+||trendcone.com^
 ||trialowl.com^
 ||trickfile.com^
 ||triplelarge.com^
@@ -9322,6 +9325,7 @@ omni.soundestlink.com$image
 ||tuplebar.com^
 ||turtleface.net^
 ||tutorshelf.com^
+||tuxedocard.com^
 ||twelvedawn.com^
 ||twentyerr.com^
 ||twistloss.com^
@@ -9401,6 +9405,7 @@ omni.soundestlink.com$image
 ||victoryideas.com^
 ||viewresource.com^
 ||vilenexus.com^
+||vinylanswer.net^
 ||violetdemise.com^
 ||viowrel.com^
 ||viralfoodie.net^
