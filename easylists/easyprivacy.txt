@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611230648
+! Version: 202611240914
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2026 06:48 UTC
+! Last modified: 24 Nov 2026 09:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6d83c5e28a8defdd3e5e7431e70bb311424a83bf
+! Commit: 03aa7a04f135d95a89ba554c03ef22ca72a9dad5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8126,6 +8126,7 @@ omni.soundestlink.com$image
 ||liftedknowledge.com^
 ||lightenafterthought.com^
 ||lighttalon.com^
+||lightwars.com^
 ||likethedog.com^
 ||lilydreamer.com^
 ||limecodesign.com^
@@ -9402,6 +9403,7 @@ omni.soundestlink.com$image
 ||tuxedocard.com^
 ||twelvedawn.com^
 ||twentyerr.com^
+||twistboat.com^
 ||twistloss.com^
 ||twisty.net^
 ||twochihuahuas.com^
@@ -9510,6 +9512,7 @@ omni.soundestlink.com$image
 ||warnwing.com^
 ||warpedwaffle.com^
 ||washbanana.com^
+||watchbighead.com^
 ||waterloco.com^
 ||waterywave.com^
 ||waveinverter.com^
@@ -9530,6 +9533,7 @@ omni.soundestlink.com$image
 ||webspires.net^
 ||webworksworld.com^
 ||weeklycurrents.com^
+||weirdknight.com^
 ||wellbeingforce.com^
 ||wellgroomedapparel.com^
 ||wellgroomedhydrant.com^
@@ -9606,11 +9610,13 @@ omni.soundestlink.com$image
 ||yellowscissors.com^
 ||yetiminis.com^
 ||yieldingwoman.com^
+||yogatryout.com^
 ||youanonymous.com^
 ||youcandrawanything.com^
 ||yourgiftedbaby.com^
 ||yourlifedream.com^
 ||yourownexpert.com^
+||yummymacaroni.com^
 ||zanyapps.com^
 ||zapandmake.com^
 ||zephyrcatalyst.com^
@@ -9625,6 +9631,7 @@ omni.soundestlink.com$image
 ||zipperxray.com^
 ||zipthelake.com^
 ||zlp6s.pw^
+||zodiacglass.com^
 ||zonegroove.com^
 ||zonewedgeshaft.com^
 ! Generic
