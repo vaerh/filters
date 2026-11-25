@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: y++J+loJLvP6o0RTx6UwdA
-! Version: 202611240912
+! Checksum: 1XWML7N1MLIVyuvFRLvBrQ
+! Version: 202611250742
 ! Title: EasyList Italy
-! Last modified: 24 Nov 2026 09:12 UTC
+! Last modified: 25 Nov 2026 07:42 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -2116,7 +2116,7 @@ spagna.cc##.add_top
 offertevolantini.it##.add_w2_h1
 condominioweb.com##.addv
 mantovanotizie.com##.adivi-infeed
-abitarepiacenza.it,antennafebea.it,brocardi.it,buildnews.it,casacinema.media,filmpertutti.boo,hdtroll.it,insidemarketing.it,legab.it,live-sport-tv.it,mattinonline.ch,nuovosud.it,orizzontescuola.it,radiogold.it,startmag.it##.ads
+abitarepiacenza.it,antennafebea.it,brocardi.it,buildnews.it,casacinema.media,filmpertutti.boo,hdtroll.it,insidemarketing.it,legab.it,live-sport-tv.it,livetennis.it,mattinonline.ch,nuovosud.it,orizzontescuola.it,radiogold.it,startmag.it##.ads
 mtbcult.it##.ads-container
 scienzenotizie.it##.ads-in-article
 libero.it##.ads-iol
