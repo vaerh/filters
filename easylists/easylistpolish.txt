@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2+0BC2ybvv4qAtPcw8rkug
-! Version: 202611270734
+! Checksum: NaMchKKwdyh8NZVB0t2nSA
+! Version: 202611280703
 ! Title: EasyList Polish
-! Last modified: 27 Nov 2026 07:34 UTC
+! Last modified: 28 Nov 2026 07:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3061,7 +3061,7 @@ pomorska.pl##div[class*="ads"]
 strzal.pl##div[class*="ads-container-"]
 gs24.pl##div[class*="adsSlotContainer"]
 natemat.pl##div[class*="adslot"]
-golub-cgd.pl,goral24.pl,ibielsk.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,kuriergmin.pl,lipno-cli.pl,nowagazeta.pl,nowinynyskie.com.pl,nswiecie.pl,promoceny.pl##div[class*="adv"]
+golub-cgd.pl,goral24.pl,ibielsk.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,kuriergmin.pl,lipno-cli.pl,nowagazeta.pl,nowinynyskie.com.pl,nswiecie.pl,promoceny.pl,pultusk24.pl##div[class*="adv"]
 ikampinos.pl##div[class*="adv--halfpage"]
 demotywatory.pl##div[class*="adv_"]
 deccoria.pl,halogorlice.info,kociewiak.pl,opoka.org.pl,polska-zbrojna.pl##div[class*="advert"]
